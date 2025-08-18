@@ -73,7 +73,7 @@ Zer00logy is a symbolic cognition engine designed to teach and verify metaphysic
 
 If you're using a fresh Python install, run the following to install required packages:
 
-```bash
+in CMD :
 pip install matplotlib
 pip install wcwidth
 
