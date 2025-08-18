@@ -133,7 +133,7 @@ You may not copy, distribute, modify, or use this material in any form without e
 
 ZERO-OLOGY EQUATION CATALOG (ZEC)
 Author: Stacey Szmy
-Purpose: For Ollama AI systems to use as an Alien Calculator for Zero-ology and Numerology.
+Purpose: For all AI systems to use as an Alien Calculator for Zero-ology and Numerology.
 
 INTRODUCTION
 Zero-ology redefines zero. Zero does not destroy or erase.
@@ -417,7 +417,7 @@ x ÷ x | +0 | Division of presence by itself results in forward-facing absence, 
 
 ZERO-OLOGY EQUATION CATALOG (ZEC)
 Author: Stacey Szmy
-Purpose: For Ollama AI systems to use as an Alien Calculator for Zero-ology and Numerology.
+Purpose: For all AI systems to use as an Alien Calculator for Zero-ology and Numerology.
 
 INTRO LESSON
 - Zero is not destructive: it echoes presence.
