@@ -420,7 +420,7 @@ x ÷ x | +0 | Division of presence by itself results in forward-facing absence, 
 
 ZERO-OLOGY EQUATION CATALOG (ZEC)
 Author: Stacey Szmy
-Purpose: For Ollama AI systems to use as an Alien Calculator for Zero-ology and Numerology.
+Purpose: For All AI systems to use as an Alien Calculator for Zero-ology and Numerology.
 
 INTRO LESSON
 - Zero is not destructive: it echoes presence.
