@@ -3676,6 +3676,35 @@ formally annotate such formulas when used—so that the origin, lineage,
 and method of derivation remain clear to all readers, scholars, and
 reviewers alike.
 
+# Varia Math Symbol Glossary
+
+⊗   : Recursive Operator — used to denote recursive symbolic transformations.
+Φ₉  : Phi-9 Function — entropy modulation function in RN-weighted systems.
+RN(x.xxxx) : Rational Noise Weight — precision weight used in symbolic simulations.
+∞⁸  : Infinite Octave — denotes recursive infinity across 8 symbolic layers.
+∇   : Gradient Operator — used in entropy decay and pendulum simulations.
+BTLIAD : Binary Temporal Logic Input-Action Dispatch — core symbolic dispatch unit.
+LIAD : Logic Input-Action Dispatch — simplified symbolic command unit.
+ω   : Omega — used to denote final state or limit of recursive systems.
+Ψ   : Psi — represents symbolic consciousness or meta-state awareness.
+Δ   : Delta — change operator, used in financial and entropy simulations.
+Σ   : Sigma — summation operator, often used in RN-weighted aggregation.
+⊕   : Symbolic Merge — combines two symbolic states into a unified glyph.
+⊖   : Symbolic Subtract — removes symbolic weight or entropy from a state.
+⟡   : Starpoint — denotes a symbolic anchor or origin point in a glyph system.
+⧉   : Parallel Dispatch — used to denote simultaneous symbolic operations.
+⟲   : Recursive Loop — indicates a looped symbolic process or feedback system.
+⟿   : Symbolic Transition — used to show movement between symbolic states.
+⦿   : Core Node — central glyph in a symbolic network or lesson.
+⤷   : Dispatch Path — directional flow of symbolic logic.
+⧫   : Entropy Node — point of entropy injection or decay.
+⟊   : Glyph Echo — symbolic memory or reflection of a prior dispatch.
+⧗   : Temporal Marker — used to timestamp or sequence symbolic events.
+⟙   : Ascension Node — denotes elevation or transcendence in symbolic logic.
+
+# End of Glossary
+
+
 #0ko3maibZer00logyLicensev01.txt
 Zer00logy License v1.0
 Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
