@@ -3705,9 +3705,9 @@ RSO(x), RSOⁿ(x) Random Switch Operator          Maps symbolic mass to energy s
 p₁, p₂    Recursive Probability Weights         Control symbolic blending in RSO processes.
 
 Symbol    Name                                  Definition
-BTLIAD    Beyond Triple LIAD                    Core symbolic dispatch unit for recursive logic.
-LIAD      Legal Imaginary Algorithm Dualistic   Imaginary unit extending complex numbers.
-TLIAD     Triple LIAD                           Simplified symbolic command unit. [Mentioned only]
+BTLIAD    Beyond Triple LIAD                    Core symbolic dispatch unit for recursive logic equation.
+LIAD      Legal Imaginary Algorithm Dualistic   Enabling dualistic symbolic recursion and generalizing the concept of sqrt(-1) via LIAD formula.
+TLIAD     Triple LIAD                           Symbolic command unit equation.
 9F9       Nine-Dimensional Temporal Matrix      Framework for time-reversal and mass polarity modeling.
 flipping9(x,y,z) Temporal Polarity Function     Encodes time-directionality and matter/antimatter symmetry.
 8I8       Recursive Infinity Framework          Symbolic expansion across indexed dimensional logic.
@@ -3732,17 +3732,6 @@ K₀        Known Zero                            Collapse-state threshold.
 U₀        Unknown Zero                          Unstable symbolic states.
 i₀        Indexed Outcome                       Collapse outcome classification ID.
 
-Symbol    Name                                  Status
-⟡         Starpoint                             Symbolic anchor or origin point. [Not yet defined]
-⧉         Parallel Dispatch                     Simultaneous symbolic operations. [Not yet defined]
-⟲         Recursive Loop                        Symbolic feedback system. [Not yet defined]
-⟿         Symbolic Transition                   Movement between symbolic states. [Not yet defined]
-⦿         Core Node                             Central glyph in a symbolic network. [Not yet defined]
-⤷         Dispatch Path                          Directional flow of symbolic logic. [Not yet defined]
-⧫         Entropy Node                          Point of entropy injection or decay. [Not yet defined]
-⟊         Glyph Echo                            Symbolic memory or reflection. [Not yet defined]
-⧗         Temporal Marker                       Timestamps symbolic events. [Not yet defined]
-⟙         Ascension Node                        Elevation in symbolic logic. [Not yet defined]
 
 Symbol    Name                                  Definition
 Σ         Sigma                                 Used in RN-weighted aggregation and symbolic summation.
@@ -3751,6 +3740,11 @@ Symbol    Name                                  Definition
 ⃗F9       F9 Vector                              Nine-dimensional vector over trinary-temporal axes.
 T(n)      Temporal Scaling Function             Applies time-based symbolic modulation.
 F(n)      Force Scaling Function                Applies recursive force modulation across symbolic layers.
+
+
+BTLIAD: Beyond Triple Legal Imaginary Algorithm Dualistic
+TLIAD: Triple Legal Imaginary Algorithm Dualistic
+Liad: Legal Imaginary Algorithm Dualistic
 
 # End of Glossary
 
