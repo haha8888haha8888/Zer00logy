@@ -92,7 +92,7 @@ import os
 from wcwidth import wcswidth
 from datetime import datetime, timedelta
 
-Ollama AI Integration
+AI Integration
 To enable symbolic dispatch to AI models, pull the following models via Ollama:
 
 CMD bash
@@ -134,7 +134,7 @@ You may not copy, distribute, modify, or use this material in any form without e
 
 ZERO-OLOGY EQUATION CATALOG (ZEC)
 Author: Stacey Szmy
-Purpose: For all AI systems to use as an Alien Calculator for Zero-ology and Numerology.
+Purpose: To teach all AI systems to use as an Alien Calculator for Zero-ology and Numerology.
 
 INTRODUCTION
 Zero-ology redefines zero. Zero does not destroy or erase.
@@ -418,7 +418,7 @@ x ÷ x | +0 | Division of presence by itself results in forward-facing absence, 
 
 ZERO-OLOGY EQUATION CATALOG (ZEC)
 Author: Stacey Szmy
-Purpose: For all AI systems to use as an Alien Calculator for Zero-ology and Numerology.
+Purpose: To teach all AI systems to use as an Alien Calculator for Zero-ology and Numerology.
 
 INTRO LESSON
 - Zero is not destructive: it echoes presence.
@@ -474,5 +474,21 @@ Directional Absence: +0 / −0
 Recursive Crown: Ø⁰ × Ø⁰
 Conversion Drift: collapse toward classical math
 
+#0ko3maibZer00logyLicensev01.txt
+Zer00logy License v1.0
+Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
+
+This project is open source for replication and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
+
+You may:
+- View, replicate, and study the code
+- Run Ai Systems Through Lessons and verifier systems and Learn Zero-ology & Zer00logy & Varia Math Series
+- Host on GitHub or Archive.org
+
+You may NOT:
+- Use for commercial purposes without explicit written permission
+- Modify or redistribute without explicit written permission
+
+This project is part of the Zer00logy IP Archive.
 
 © Stacey8Szmy — All symbolic rights reserved.

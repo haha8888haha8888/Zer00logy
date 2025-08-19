@@ -7,7 +7,7 @@ Including Variamathlesson.txt
 
 You may:
 - View, replicate, and study the code
-- Run Ai Systems Through Lessons and verifier systems and Learn Zero-ology & Zer00logy
+- Run Ai Systems Through Lessons and verifier systems and Learn Zero-ology & Zer00logy & Varia Math Series
 - Host on GitHub or Archive.org
 
 You may NOT:
