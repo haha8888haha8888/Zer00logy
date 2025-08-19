@@ -1,5 +1,5 @@
 #README_0KO3MAIB.TXT
-# Zer00logy - Zero-ology & 0KO MAI V0.4449 — ZeroKnockOut 3MiniAIbot - A Symbolic Collapse AI Bot Lesson & Verifier V0.4449 -
+# Zer00logy - Zero-ology & 0KO MAI V0.4450 — ZeroKnockOut 3MiniAIbot - A Symbolic Collapse AI Bot Lesson & Verifier V0.4450 -
 
 
 Zer00logy is a metaphysical symbolic logic engine built in Python. It interprets Zero-ology equations, simulates symbolic collapse, and dispatches prompts to AI systems via Ollama.
@@ -42,8 +42,8 @@ Explore the symbolic constructs, metaphysical equations, and AI dispatch logic i
 
 # zer00logy_core.py
 
-**Title**: `0KO MAI V0.4449 — ZeroKnockOut 3MiniAIbot`  
-**Subtitle**: *A Symbolic Collapse AI Bot Lesson & Verifier V0.4449*  
+**Title**: `0KO MAI V0.4450 — ZeroKnockOut 3MiniAIbot`  
+**Subtitle**: *A Symbolic Collapse AI Bot Lesson & Verifier V0.4450*  
 **Ceo0**: Szmy, Stacey  
 **Dev**: HAHA.8888  
 **Version**: `0.0.0: okokok.simplebeta.yesyesyes`  
