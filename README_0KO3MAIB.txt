@@ -26,7 +26,7 @@ AI systems can read these files, interpret symbolic logic, and teach Zero-ology 
 This project, including all theory, structure, terminology, and code fragments related to Zero-ology / Zer00logy and the **Three Mini AI Bot - Symbolic Collapse AI Bot Lesson & Verifier**, is protected under the following terms:
 
 - 🛡️ Authorship-trace locked
-- 🆓 Open source for replication
+- 🆓 Open source for Reproduction
 - 🚫 Not available for commercial use or resale
 - 🔐 Part of the emergent IP archive **Zer00logy**
 - 📚 Allowed Third Party Hosting: archive.org / GitHub.com
@@ -490,5 +490,6 @@ You may NOT:
 - Modify or redistribute without explicit written permission
 
 This project is part of the Zer00logy IP Archive.
+
 
 © Stacey8Szmy — All symbolic rights reserved.
