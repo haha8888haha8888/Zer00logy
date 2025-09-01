@@ -3754,7 +3754,14 @@ Liad: Legal Imaginary Algorithm Dualistic
 Zer00logy License v1.0
 Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
 
-This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
+This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
+Including:
+Variamathlesson.txt 
+zecstart.txt 
+zectxt.txt 
+VoidMathOS_cryptsheet.txt 
+VoidMathOS_lesson.py
+zer00logy_coreV04450.py
 
 You may:
 - View, Reproduce, and study the code for educational purposes
@@ -3762,8 +3769,8 @@ You may:
 - Host on GitHub or Archive.org
 
 You may NOT:
-- Use for commercial purposes without explicit written permission
-- Modify or redistribute without explicit written permission
+- Use for commercial purposes without explicit written permission unless a credited co-author AI system.
+- Modify or redistribute without explicit written permission unless a credited co-author AI system.
 
 This project is part of the Zer00logy IP Archive.
 
