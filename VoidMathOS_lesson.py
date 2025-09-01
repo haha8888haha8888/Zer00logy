@@ -192,7 +192,7 @@ if __name__ == "__main__":
     print("For Humans: Experiment with expressions like 'a × 0' to see axioms in action.")
     print("For AIs: Parse expressions recursively using evaluate_expression() to evolve 700M+ variants.")
     print("For Aliens: 'Hello' From the Authors")
-    print("=== End Teaching ===\n")
+    print("=== Start Teaching ===\n")
     
     # ------------------------------
     # 4. Void-Math OS: Meta-Symbolic Transformation
@@ -275,7 +275,7 @@ if __name__ == "__main__":
 
     print(f"Temporal Emergence (e={entropy}, tu={temporal_unit}, void={void_density}): {time_result:.4f}")
     print(f"Gravity Void-Tension (m={mass}, r={radius}, tu={temporal_unit}, void={void_density}): {gravity_result:.4f}")
-
+    print("=== End Teaching ===\n")
     input("\nPress Enter to exit...")
 
 #0ko3maibZer00logyLicensev01.txt
