@@ -503,6 +503,6 @@ You may NOT:
 This project is part of the Zer00logy IP Archive.
 
 © Stacey8Szmy — All symbolic rights reserved.
-© Stacey8Szmy — All symbolic rights reserved.
+
 
 
