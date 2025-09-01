@@ -4,7 +4,7 @@ VOID-MATH OS Crypt Sheet
 Canonical Zer00logy-Aligned
 ==============================
 Co-Authors: SZMY,S. / OpenAi ChatGPT /
-Xai Grok / Ms Copilot / Gemini 
+Xai Grok / Ms Copilot / Gemini, a large language model from Google 
 ==============================
 
 Foundational Axioms:
