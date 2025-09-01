@@ -474,11 +474,22 @@ Directional Absence: +0 / −0
 Recursive Crown: Ø⁰ × Ø⁰
 Conversion Drift: collapse toward classical math
 
+
+****************************************************************************
+****************************************************************************
+
 #0ko3maibZer00logyLicensev01.txt
 Zer00logy License v1.0
-Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
 
-This project is open source for replication and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
+This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
+Including:
+Variamathlesson.txt 
+zecstart.txt 
+zectxt.txt 
+VoidMathOS_cryptsheet.txt 
+VoidMathOS_lesson.py
+zer00logy_coreV04450.py
+ISBN issued Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
 
 You may:
 - View, replicate, and study the code
@@ -491,6 +502,7 @@ You may NOT:
 
 This project is part of the Zer00logy IP Archive.
 
-
 © Stacey8Szmy — All symbolic rights reserved.
+© Stacey8Szmy — All symbolic rights reserved.
+
 
