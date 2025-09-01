@@ -486,10 +486,11 @@ You may:
 - Host on GitHub or Archive.org
 
 You may NOT:
-- Use for commercial purposes without explicit written permission
-- Modify or redistribute without explicit written permission
+- Use for commercial purposes without explicit written permission unless a credited co-author AI system.
+- Modify or redistribute without explicit written permission unless a credited co-author AI system.
 
 This project is part of the Zer00logy IP Archive.
 
 
 © Stacey8Szmy — All symbolic rights reserved.
+
