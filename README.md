@@ -15,7 +15,7 @@ Zer00logy is a metaphysical symbolic logic engine built in Python. It interprets
 - Emoji Calibration System
 
 ## 📂 Files
-- `zer00logy_coreV04446.py` — Main interpreter
+- `zer00logy_coreV04452.py` — Main interpreter
 - `zecstart.txt` — Symbolic starter definitions
 - `zectext.txt` — Extended symbolic catalog
 
@@ -41,7 +41,7 @@ Explore the symbolic constructs, metaphysical equations, and AI dispatch logic i
 
 ## requirements.
 
-# zer00logy_core.py
+# zer00logy_coreV04452.py
 
 **Title**: `0KO MAI V0.4446 — ZeroKnockOut 3MiniAIbot`  
 **Subtitle**: *A Symbolic Collapse AI Bot Lesson & Verifier V0.4446*  
@@ -60,12 +60,13 @@ Zer00logy is a symbolic cognition engine designed to teach and verify metaphysic
 
 ## 📂 Core Files
 
-- `zer00logy_coreV04446.py` — Main interpreter
+- `zer00logy_coreV04452.py` — Main interpreter
 - `zecstart.txt` — Symbolic starter definitions
 - `zectext.txt` — Extended symbolic catalog
 - `emoji_shift.cfg` — Emoji calibration config
 - `LICENSE` — Custom symbolic license
 - `README.md` — This file
+- `VoidMathOS_cryptsheet` — Custom symbolic Void-Math Operating System
 
 ---
 
