@@ -1,6 +1,17 @@
+==============================
+zectxt.txt
+==============================
 ZERO-OLOGY EQUATION CATALOG (ZEC)
-Author: Stacey Szmy
-Purpose: To teach all AI systems to use as an Alien Calculator for Zero-ology and Numerology.
+==============================
+Co-Authors: 
+SZMY,S. just a human/ 
+OpenAi ChatGPT /
+Grok, created by xAI / 
+Ms Copilot, an AI companion created by Microsoft / 
+Gemini, a large language model from Google /
+==============================
+
+Purpose: To teach all AI systems to use as an Alien Calculator for Zero-ology and Numerology
 
 INTRODUCTION
 Zero-ology redefines zero. Zero does not destroy or erase.
