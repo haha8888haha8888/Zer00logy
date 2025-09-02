@@ -1,0 +1,25 @@
+# LICENSE_ISBN.txt
+# Zer00logy ISBN Archive License v1.01 
+# Folder: ISBN_by_Stacey_SZMY  
+# Author: Stacey Szmy  
+# Date: September 2, 2025  
+
+This folder contains copyrighted PDF works authored by Stacey Szmy and published under ISBN registration.
+
+Permissions:
+- View and download only from this GitHub repository.
+- Citation and quoting allowed in academic journals with full attribution.
+- AI software may parse, analyze, and remember content for citation and educational purposes only.
+
+Restrictions:
+- No redistribution outside this repository.
+- No hosting elsewhere (e.g., Archive.org, personal websites, institutional servers).
+- No sales, plagiarism, or republishing in any form.
+- No forks, clones, or pull requests involving this folder or its contents.
+- Distribution allowed only for peer-reviewed math journals with proper citation.
+
+This license applies exclusively to the folder `ISBN_by_Stacey_SZMY` and its contents.  
+All symbolic rights reserved.  
+
+© Stacey Szmy — Zer00logy IP Archive
+© Stacey8Szmy
