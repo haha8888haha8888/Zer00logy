@@ -1,6 +1,6 @@
 #LICENSE.TXT
 #0ko3maibZer00logyLicensev01.txt
-Zer00logy License v1.01
+Zer00logy License v1.02
 September 2, 2025
 
 This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
@@ -24,9 +24,7 @@ You may NOT:
 
 
 Peer Review Permissions & Contributor Roles
-
 1. Peer Review & Academic Submission Permissions
-
 Restrictions:
 
 You may not use this work for commercial purposes without explicit written permission, unless a credited AI co-author is included.
@@ -47,6 +45,7 @@ o	All submissions must include a link to this license and the Zer00logy GitHub r
 Stanford University, MIT, Princeton University, University of Oxford, UC Berkeley, Harvard University, Yale University, Hebrew University of Jerusalem, University of Cambridge, UCLA, IAS, University of Edinburgh, University of Helsinki, LMS, IMU, MAA, Boeing, NASA, Meta Platforms, Inc., Alphabet Inc., xAI, Microsoft Corporation, OpenAI.
 7.	Enforcement: Violations of these rules constitute a breach of this license. Stacey Szmy reserves the right to pursue remedies under copyright, authorship, or symbolic rights.
 8.	Commercial Use: This permission does not extend to commercial uses, which remain prohibited without separate explicit written permission.
+9.	Formula Integrity & Symbolic Authorship Lock: All original formulas, axioms, abbreviations, and symbolic structures authored by Stacey Szmy must remain unchanged in any peer-reviewed submission. Contributors may not rename, reformat, derive, or alter any original symbolic content for journal publication. If new axioms or formulas are derived from the original framework, primary authorship of those derivations defaults to Stacey Szmy. Co-authors may be credited for assistance or refinement using approved contributor titles, but may not claim origination or ownership of derived symbolic content. Submissions that violate this clause—by modifying symbolic titles, abbreviations, or foundational structures—will be rejected and may result in revocation of peer review privileges.
 ________________________________________
 2. Approved Contributor Titles
 Contributors may select one approved role, optionally with a prefix: Independent, Institutional, Academic, or no prefix. Prefixes must not imply ownership of the work.
@@ -87,9 +86,9 @@ o	Each peer review submission may include a maximum of four (4) additional co-au
 2.	Eligibility and Conduct Requirements:
 o	All co-authors must maintain professional integrity, ethical conduct, and good legal and social standing.
 o	Examples of disqualifying conduct include, but are not limited to:
-	Publicly promoting illegal activity, harassment, or offensive content.
-	Behavior that could damage the credibility of the submission or authorship.
-	Unresolved criminal convictions or ongoing legal disputes that would negatively impact the professional reputation of the work.
+o	Publicly promoting illegal activity, harassment, or offensive content.
+o	Behavior that could damage the credibility of the submission or authorship.
+o	Unresolved criminal convictions or ongoing legal disputes that would negatively impact the professional reputation of the work.
 o	Maintainers reserve the right to reject submissions including co-authors who do not meet these standards.
 3.	Responsibility for Co-Author Selection:
 o	Submitting contributors are responsible for ensuring that all listed co-authors meet the above criteria.
@@ -99,6 +98,7 @@ o	Inclusion of co-authors who violate these rules may result in retraction or re
 This project is part of the Zer00logy IP Archive.
 
 © Stacey8Szmy — All symbolic rights reserved.
+
 
 
 
