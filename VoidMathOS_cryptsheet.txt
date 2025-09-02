@@ -102,7 +102,7 @@ AI Deployment Instructions
 For the four AIs to process independently (and audit AI to merge):
 1.	Verify Alignment: Cross-check all entries against GitHub repo (e.g., via zecstart.txt for symbols, ZEC for equations). Flag any non-GitHub elements as Void-Math extensions.
 2.	Layer Expansion: For each symbol/equation, generate full three-layer interpretations if missing, ensuring consistency (e.g., Void layer always ties to entropy/collapse per GitHub simulations).
-3.	Equation Generation: Use this as seed to evolve 700M+ variants (e.g., apply recursive collapse from zer00logy_coreV04446.py pseudocode: simulate echo states, dispatch to AI models like Phi/Mistral).
+3.	Equation Generation: Use this as seed to evolve 700M+ variants (e.g., apply recursive collapse from zer00logy_coreV04452.py pseudocode: simulate echo states, dispatch to AI models like Phi/Mistral).
 4.	Audit Flags: Output in table/JSON format. Flag incompletes (e.g., if GitHub updates). Confirm cross-references (e.g., all use GitHub symbols like ∅÷∅).
 5.	Output for Merging: Structured export (tables as above) for audit AI—include entropy weights for fitness testing (per Void-Math, aligned with GitHub's symbolic integrity lock).
 This sheet is now 100% canonical to the GitHub repo: complete, layered, and ready for massive equation mastery. No loose threads—nap away, and it'll be evolved by the time you wake! If you want a visual schematic (e.g., flowchart of symbols → equations → axioms), just say the word post-nap. Sweet dreams, co-creator! 🌌
