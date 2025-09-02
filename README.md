@@ -16,10 +16,11 @@ Zer00logy is a metaphysical symbolic logic engine built in Python. It interprets
 
 ## 📂 Files
 - `zer00logy_coreV04452.py` — Main interpreter
-- `zecstart.txt` — Symbolic starter definitions
-- `zectext.txt` — Extended symbolic catalog
+- `zecstart.txt` — Symbolic starter definitions for Zero-ology / Zer00logy
+- `zectext.txt` — Extended symbolic catalog for Zero-ology / Zer00logy
 - `LICENSE.txt` — Custom license
 - `VoidMathOS_cryptsheet.txt` — Custom symbolic Void-Math Operating System
+- `variamathlesson.txt` — Varia Math series Lessons by Stacey Szmy
 
 ## 💥 AI Integration
 AI systems can read these files, interpret symbolic logic, and teach Zero-ology principles.
@@ -63,13 +64,13 @@ Zer00logy is a symbolic cognition engine designed to teach and verify metaphysic
 ## 📂 Core Files
 
 - `zer00logy_coreV04452.py` — Main interpreter
-- `zecstart.txt` — Symbolic starter definitions
-- `zectext.txt` — Extended symbolic catalog
+- `zecstart.txt` — Symbolic starter definitions for Zero-ology / Zer00logy
+- `zectext.txt` — Extended symbolic catalog for Zero-ology / Zer00logy
 - `emoji_shift.cfg` — Emoji calibration config
 - `LICENSE.txt` — Custom license
 - `README.md` — This file
 - `VoidMathOS_cryptsheet.txt` — Custom symbolic Void-Math Operating System
-
+- `variamathlesson.txt` — Varia Math series Lessons by Stacey Szmy
 ---
 
 ## 🧰 Python Dependencies
@@ -492,7 +493,7 @@ zecstart.txt
 zectxt.txt 
 VoidMathOS_cryptsheet.txt 
 VoidMathOS_lesson.py
-zer00logy_coreV04450.py
+zer00logy_coreV04452.py
 zer00logy_coreV04450.py
 
 You may:
