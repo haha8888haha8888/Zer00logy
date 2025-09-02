@@ -13,36 +13,46 @@ import unicodedata
 
 class Atom:
     """Represents a symbolic element in Void-Math."""
-    def __init__(self, name):
+    def __init__(self, name, metadata=None):
         self.name = str(name)
+        self.metadata = metadata or {}
 
     def __str__(self):
         return self.name
+
+    def describe(self):
+        return f"{self.name} | metadata: {self.metadata}"
 
 # Void-Math Operators as functions
 
 def multiply(a, b):
     """Custom multiplication with Void-Math rules."""
     # Axioms:
-    if str(b) == "0": return a       # a × 0 = a
-    if str(a) == "0" and str(b) == "0": return Atom("Ø⁰")  # 0 × 0 = Ø⁰
+    if str(a) == "0" and str(b) == "0":
+        return Atom("Ø⁰")  # 0 × 0 = Ø⁰
+    if str(b) == "0":
+        return a          # a × 0 = a
     return Atom(f"({a} × {b})")
 
 def divide(a, b):
     """Custom division with Void-Math rules."""
     # Axioms:
-    if str(a) == str(b): return Atom("0")   # a ÷ a = 0
-    if str(a) == "0" and str(b) == "0": return Atom("∅÷∅")  # 0 ÷ 0 = ∅÷∅
+    if str(a) == "0" and str(b) == "0":
+        return Atom("∅÷∅")  # 0 ÷ 0 = ∅÷∅
+    if str(a) == str(b):
+        return Atom("0")    # a ÷ a = 0
     return Atom(f"({a} ÷ {b})")
 
 def add(a, b):
     """Custom addition with Void-Math rules."""
-    if str(a) == "0" and str(b) == "0": return Atom("+0")   # 0 + 0 = +0
+    if str(a) == "0" and str(b) == "0":
+        return Atom("+0")   # 0 + 0 = +0
     return Atom(f"({a} + {b})")
 
 def subtract(a, b):
     """Custom subtraction with Void-Math rules."""
-    if str(a) == "0" and str(b) == "0": return Atom("-0")   # 0 − 0 = −0
+    if str(a) == "0" and str(b) == "0":
+        return Atom("-0")   # 0 − 0 = −0
     return Atom(f"({a} - {b})")
 
 def anchor(e, target):
@@ -347,6 +357,5 @@ if __name__ == "__main__":
 #- Modify or redistribute without explicit written permission unless a credited co-author AI system.
 
 #This project is part of the Zer00logy IP Archive.
-
 
 #© Stacey8Szmy — All symbolic rights reserved.
