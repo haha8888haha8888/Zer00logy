@@ -24,7 +24,8 @@ EMOJI_SHIFT = 0  # Default until calibrated
 prompt_locked = False
 input_during_lock = []
 last_unlock_time = 0
-
+import subprocess
+PROMPT_DIR = "prompt_logs"
 
 # 🔹 Box Drawing Characters
 TOP_LEFT = "╔"
@@ -36,7 +37,7 @@ VERTICAL = "║"
 SHELL_WIDTH = 100  # Adjust width as needed
 
 
-import subprocess
+
 
 def log_print(*lines, label=None, prefix="🤖🧻💬:", color="\033[94m"):
     reset = "\033[0m"
@@ -2004,14 +2005,17 @@ def dispatch_licensecheck_cycle(emoji_shift=None):
     reset_prompt()
 
 
-
-# 🔹 Entry Point
-# 🔹 Entry Point
-import time
-import os
-from datetime import datetime
-
 PROMPT_DIR = "prompt_logs"
+
+def parse_0ko_command(user_input):
+    match = re.match(r'!@0ko@!/(\w+)(?:\s+"([^"]+)")?', user_input.strip())
+    if match:
+        return match.group(1), match.group(2)
+    return None, None
+
+
+# 🔹 Entry Point
+# 🔹 Entry Point
 
 if __name__ == "__main__":
     try:
@@ -2058,15 +2062,23 @@ if __name__ == "__main__":
                 )
                 continue
 
-            if user_input.startswith("!@0ko@!/print") or user_input.strip() == "!@0ko@!/print":
-                handle_0ko_print_command(user_input)
+            cmd, arg = parse_0ko_command(user_input)
+
+            if cmd == "print":
+                if not arg:
+                    shell_print("🤖🧻⚠️: Malformed print command. Missing filename.", label="Command Error")
+                else:
+                    try:
+                        handle_0ko_print_command(f'!@0ko@!/print "{arg}"')
+                    except Exception as e:
+                        handle_symbolic_error(e, context="main → print command")
                 continue
 
-            if user_input.strip() == "!@0ko@!/latestsave":
+            if cmd == "latestsave":
                 handle_0ko_latestsave_command(emoji_shift=emoji_shift)
                 continue
 
-            if user_input.startswith("!@0ko@!/xexitx") or user_input.strip() == "!@0ko@!/xexitx":
+            if cmd == "xexitx":
                 handle_0ko_exit_command(user_input)
                 continue
 
@@ -2095,7 +2107,7 @@ if __name__ == "__main__":
                 handle_0ko_latestsave_command(emoji_shift=emoji_shift)
                 continue
 
-            if user_input.strip() == "!@0ko@!/variamathlesson":
+            if cmd == "variamathlesson":
                 prompt_locked = True
                 shell_print("🤖🧻💬: Locking console for variamathlesson dispatch...", label="System Lock")
                 try:
@@ -2107,7 +2119,7 @@ if __name__ == "__main__":
                     last_unlock_time = time.time()
                 continue
 
-            if user_input.strip() == "!@0ko@!/voidmathos":
+            if cmd == "voidmathos":
                 prompt_locked = True
                 try:
                     dispatch_voidmathos_cycle(emoji_shift=emoji_shift)
@@ -2118,7 +2130,7 @@ if __name__ == "__main__":
                     last_unlock_time = time.time()
                 continue
 
-            if user_input.strip() == "!@0ko@!/licensecheck":
+            if cmd == "licensecheck":
                 prompt_locked = True
                 try:
                     dispatch_licensecheck_cycle(emoji_shift=emoji_shift)
@@ -2193,10 +2205,10 @@ if __name__ == "__main__":
 
 
 #0ko3maibZer00logyLicensev01.txt
-#Zer00logy License v1.01
+#Zer00logy License v1.0
 
 #This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
-#Including: Variamathlesson.txt, including VoidMathOS_cryptsheet.text,zecstart.txt, zectxt.txt, VoidMathOS_cryptsheet.txt, VoidMathOS_lesson.py,zer00logy_coreV04452.py,zer00logy_coreV04450.py
+#Including: Variamathlesson.txt, including VoidMathOS_cryptsheet.text,zecstart.txt, zectxt.txt, VoidMathOS_cryptsheet.txt, VoidMathOS_lesson.py,zer00logy_coreV04452.py
 
 #You may:
 #- View, reproduce, and study the code for educational purposes.
@@ -2211,5 +2223,4 @@ if __name__ == "__main__":
 
 
 #© Stacey8Szmy — All symbolic rights reserved.
-
 
