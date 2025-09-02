@@ -1296,7 +1296,7 @@ def navigation_console(results, emoji_shift=None):
                 emoji_aware_pad(" 🤖🧻💬: In 0KO 3MIAb Chat Mode Use Type Commands", 60, emoji_shift),
                 emoji_aware_pad("🤖🧻: Reminder type /usemenu!@0ko@! to Enter This Menu, 00 now exit Menu:", 60, emoji_shift),
                 emoji_aware_pad("🤖🧻💬: Type !@0ko@!/variamathlesson To Teach Varia Math", 60, emoji_shift),
-                emoji_aware_pad("🤖🧻💬: Type !@0ko@!//voidmathos To Teach Void-Math OS", 60, emoji_shift),
+                emoji_aware_pad("🤖🧻💬: Type !@0ko@!/voidmathos To Teach Void-Math OS", 60, emoji_shift),
                 emoji_aware_pad("🤖🧻💬: Type !@0ko@!/licensecheck To Check License", 60, emoji_shift),
                 emoji_aware_pad("🤖🧻💬: Type !@0ko@!/print To Print File Hisotry", 60, emoji_shift),
                 emoji_aware_pad("🤖🧻💬: Type !@0ko@!/xexitx To Exit 0KO 3MAIb V0.4452", 60, emoji_shift)
