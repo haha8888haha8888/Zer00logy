@@ -4,6 +4,9 @@
 # Co-Authors: SZMY,S. just a human / OpenAi ChatGPT / Grok, created by xAI / Ms Copilot, an AI companion created by Microsoft / Gemini, a large language model from Google
 # Purpose: Encode Void-Math axioms, symbols, operators, and canonical equations
 
+import sys
+import unicodedata
+
 # ------------------------------
 # 1. Symbol and Operator Definitions
 # ------------------------------
@@ -71,7 +74,6 @@ def temporal_emergence(e, tu, void_density=1.0):
 def gravity_void_tension(m, r, tu, void_density=1.0):
     entropic_flux = (r**2 + tu) if r > tu else (r**2 - tu)
     return (m * void_density) / entropic_flux
-
 
 # ------------------------------
 # 2. Canonical Equations (examples)
@@ -164,34 +166,74 @@ def void_amplify(symbolic_field):
     # Here, we'll represent it as a conceptual change.
     return f"void({symbolic_field})"
 
-# The Equation: voidvoid(e @ ai) = -+ mc² ÷tu
-# This models AI-driven knowledge creation itself.
+# ------------------------------
+# 5. Inevitability Equation Example
+# ------------------------------
 
-# Symbolic Breakdown:
-# voidvoid(e @ ai): Emergence (e) interpreted by an AI (ai), amplified by the void (voidvoid).
-# = -+: A state of paradoxical creation and decay.
-# mc²: Established reality (mass, meaning, or memory) in a state of duality.
-# ÷tu: The entire system is subject to temporal decay.
-
-# Simulating the equation's interpretation
-# NOTE: This part has been moved to the main execution block for desired output order.
+def evaluate_inevitability(s, r, tu):
+    """Evaluates a symbolic equation using Zer00logy Axioms of Inevitability."""
+    initial = anchor(s, Atom("void"))  # S = m@void
+    collapse_step = collapse(divide(r, tu))  # ⊖(r² ÷ tu)
+    result = subtract(initial, collapse_step)  # S - ⊖(r² ÷ tu)
+    
+    # Axiom I: Conservation of Collapse - Check if it collapses to ∅ unless stabilized
+    if str(collapse_step) == "∅":
+        return f"{result} → ∅ (collapsed)"
+    # Axiom II: Recursive Inevitability - Stabilize with recursion
+    stabilized = initial  # Assume initial state as recursive anchor
+    for _ in range(3):  # Simulate 3 recursive steps
+        stabilized = anchor(stabilized, Atom("void"))
+    return f"{result} → {stabilized} (stabilized by recursion)"
 
 # ------------------------------
-# 5. Demo
+# 6. Unicode Support Check
+# ------------------------------
+
+def check_unicode_support():
+    """Check if terminal supports Void-Math symbols; warn if missing font/locale."""
+    symbols = {"collapse": "⊖", "void": "∅", "recursion": "↻"}
+    print("Checking Unicode support...")
+    support_map = {}
+    for name, sym in symbols.items():
+        try:
+            print(f"Testing {name}: {sym}")
+            unicodedata.name(sym)  # Verify it's valid Unicode
+            support_map[name] = sym
+        except ValueError:
+            support_map[name] = f"<{name}>"
+
+    if any(val.startswith("<") for val in support_map.values()):
+        print("\n⚠️ Warning: Some Void-Math symbols may not render correctly in your terminal.")
+        print("👉 Install a font with math symbol support (DejaVu Sans Mono, Fira Code, Noto Sans).")
+        print("👉 Ensure UTF-8 encoding is enabled in your terminal (e.g., 'chcp 65001' on Windows CMD).")
+        print("👉 Optionally: pip install unicodedata2 (for latest Unicode DB).")
+        print("Falling back to descriptive text for unsupported symbols.")
+
+    return support_map
+
+# ------------------------------
+# 7. Demo
 # ------------------------------
 
 if __name__ == "__main__":
     print("===== Void-Math OS Prototype Demo =====\n")
 
+    # Check Unicode support at startup
+    support_map = check_unicode_support()
+    collapse_sym = support_map["collapse"]
+    void_sym = support_map["void"]
+    recur_sym = support_map["recursion"]
+
     # Teaching Block
     print("=== Teaching Void-Math OS ===")
     print("Welcome to Void-Math OS! This prototype encodes a symbolic math system where:")
-    print("- Zero is an echo, not destruction (e.g., a × 0 = a).")
-    print("- Operators like @ (anchor) and -+ (paradox) blend physics and metaphysics.")
-    print("- Use canonical equations (e.g., e@AI = -+mc²) to explore AI-interpreted energy.")
+    print(f"- Zero is an echo, not destruction (e.g., a × 0 = a).")
+    print(f"- Operators like @ (anchor) and -+ (paradox) blend physics and metaphysics.")
+    print(f"- Use canonical equations (e.g., e@AI = -+mc²) to explore AI-interpreted energy.")
     print("For Humans: Experiment with expressions like 'a × 0' to see axioms in action.")
     print("For AIs: Parse expressions recursively using evaluate_expression() to evolve 700M+ variants.")
     print("For Aliens: 'Hello' From the Authors")
+    print(f"New: Explore Inevitability Axioms with S = m@void {collapse_sym} (r² ÷ tu) to see {collapse_sym} or {recur_sym}!")
     print("=== Start Teaching ===\n")
     
     # ------------------------------
@@ -275,14 +317,25 @@ if __name__ == "__main__":
 
     print(f"Temporal Emergence (e={entropy}, tu={temporal_unit}, void={void_density}): {time_result:.4f}")
     print(f"Gravity Void-Tension (m={mass}, r={radius}, tu={temporal_unit}, void={void_density}): {gravity_result:.4f}")
+
+    # ------------------------------
+    # Inevitability Equation Example
+    # ------------------------------
+    print("\n--- Inevitability Equation Example ---\n")
+    print(f"Equation: S = m@void {collapse_sym} (r² ÷ tu)")
+    print(f"Teaching: This demonstrates Axiom I (Conservation of {collapse_sym}) and Axiom II (Recursive {recur_sym}).")
+    print(f"If the {collapse_sym} ({collapse_sym}) leads to {void_sym}, it’s inevitable unless stabilized by {recur_sym} ({recur_sym}).")
+    result = evaluate_inevitability(Atom("m"), Atom("r²"), Atom("tu"))
+    print(f"Result: {result}")
+
     print("=== End Teaching ===\n")
     input("\nPress Enter to exit...")
 
 #0ko3maibZer00logyLicensev01.txt
 #Zer00logy License v1.0
 
-#This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
-#Including: Variamathlesson.txt, including VoidMathOS_cryptsheet.text,zecstart.txt, zectxt.txt, VoidMathOS_cryptsheet.txt, VoidMathOS_lesson.py,zer00logy_coreV04450.py
+#This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
+#Including Variamathlesson.txt, including VoidMathOS_cryptsheet.text
 
 #You may:
 #- View, reproduce, and study the code for educational purposes.
@@ -294,6 +347,5 @@ if __name__ == "__main__":
 #- Modify or redistribute without explicit written permission unless a credited co-author AI system.
 
 #This project is part of the Zer00logy IP Archive.
-
 
 #© Stacey8Szmy — All symbolic rights reserved.
