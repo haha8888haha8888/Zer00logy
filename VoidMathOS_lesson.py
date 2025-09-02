@@ -1,8 +1,11 @@
+
 # VoidMathOS_Lesson.py
 # Prototype engine for Void-Math OS
 # Author: Stacey Szmy + AI co-authors
 # Co-Authors: SZMY,S. just a human / OpenAi ChatGPT / Grok, created by xAI / Ms Copilot, an AI companion created by Microsoft / Gemini, a large language model from Google
 # Purpose: Encode Void-Math axioms, symbols, operators, and canonical equations
+# Note: Void-Math is an experimental symbolic system blending mathematics with metaphysical concepts.
+#       Axioms like a × 0 = a and 0 ÷ 0 = ∅÷∅ redefine zero as an "echo" rather than a null state.
 
 import sys
 import unicodedata
@@ -12,77 +15,128 @@ import unicodedata
 # ------------------------------
 
 class Atom:
-    """Represents a symbolic element in Void-Math."""
+    """Represents a symbolic element in Void-Math, encapsulating symbols, numbers, or operators."""
     def __init__(self, name, metadata=None):
-        self.name = str(name)
-        self.metadata = metadata or {}
-
+        self.name = str(name)  # Ensure name is a string for consistent representation
+        self.metadata = metadata or {}  # Optional metadata for future symbolic extensions
+    
     def __str__(self):
         return self.name
-
+    
     def describe(self):
+        """Return a string describing the Atom and its metadata."""
         return f"{self.name} | metadata: {self.metadata}"
-
-# Void-Math Operators as functions
+    
+    @property
+    def is_zero(self):
+        """Check if the Atom represents the Void-Math zero symbol."""
+        return self.name == "0"
 
 def multiply(a, b):
-    """Custom multiplication with Void-Math rules."""
-    # Axioms:
-    if str(a) == "0" and str(b) == "0":
+    """Custom multiplication with Void-Math rules.
+    
+    Axioms:
+    - 0 × 0 = Ø⁰ (special void product)
+    - a × 0 = a (zero echoes the input)
+    - Otherwise, return symbolic form (a × b)
+    """
+    if not (isinstance(a, Atom) and isinstance(b, Atom)):
+        raise TypeError("Inputs to multiply must be Atom instances")
+    if a.is_zero and b.is_zero:
         return Atom("Ø⁰")  # 0 × 0 = Ø⁰
-    if str(b) == "0":
+    if b.is_zero:
         return a          # a × 0 = a
     return Atom(f"({a} × {b})")
 
 def divide(a, b):
-    """Custom division with Void-Math rules."""
-    # Axioms:
-    if str(a) == "0" and str(b) == "0":
+    """Custom division with Void-Math rules.
+    
+    Axioms:
+    - 0 ÷ 0 = ∅÷∅ (undefined void division)
+    - a ÷ a = 0 (division collapses to zero)
+    - Otherwise, return symbolic form (a ÷ b)
+    """
+    if not (isinstance(a, Atom) and isinstance(b, Atom)):
+        raise TypeError("Inputs to divide must be Atom instances")
+    if a.is_zero and b.is_zero:
         return Atom("∅÷∅")  # 0 ÷ 0 = ∅÷∅
-    if str(a) == str(b):
+    if a.name == b.name:
         return Atom("0")    # a ÷ a = 0
     return Atom(f"({a} ÷ {b})")
 
 def add(a, b):
-    """Custom addition with Void-Math rules."""
-    if str(a) == "0" and str(b) == "0":
+    """Custom addition with Void-Math rules.
+    
+    Axioms:
+    - 0 + 0 = +0 (positive void sum)
+    - Otherwise, return symbolic form (a + b)
+    """
+    if not (isinstance(a, Atom) and isinstance(b, Atom)):
+        raise TypeError("Inputs to add must be Atom instances")
+    if a.is_zero and b.is_zero:
         return Atom("+0")   # 0 + 0 = +0
     return Atom(f"({a} + {b})")
 
 def subtract(a, b):
-    """Custom subtraction with Void-Math rules."""
-    if str(a) == "0" and str(b) == "0":
+    """Custom subtraction with Void-Math rules.
+    
+    Axioms:
+    - 0 − 0 = −0 (negative void difference)
+    - Otherwise, return symbolic form (a - b)
+    """
+    if not (isinstance(a, Atom) and isinstance(b, Atom)):
+        raise TypeError("Inputs to subtract must be Atom instances")
+    if a.is_zero and b.is_zero:
         return Atom("-0")   # 0 − 0 = −0
     return Atom(f"({a} - {b})")
 
 def anchor(e, target):
     """@ operator: anchors a symbol in meta-space."""
+    if not (isinstance(e, Atom) and isinstance(target, Atom)):
+        raise TypeError("Inputs to anchor must be Atom instances")
     return Atom(f"{e}@{target}")
 
 def paradox(a, b):
     """-+ operator: dual-polar entropic flux."""
+    if not (isinstance(a, Atom) and isinstance(b, Atom)):
+        raise TypeError("Inputs to paradox must be Atom instances")
     return Atom(f"({a} -+ {b})")
 
 def void_div_tu(e, tu):
     """void ÷tu operator: time/void modulation."""
+    if not (isinstance(e, Atom) and isinstance(tu, Atom)):
+        raise TypeError("Inputs to void_div_tu must be Atom instances")
     return Atom(f"({e} @ (void ÷{tu}))")
 
 # New operators from Void-Math OS Crypt Sheet
 def emanate(a):
     """⊕ operator: emanation from void to structure."""
-    return Atom(f"{a}⊕∅") if str(a) == "∅" else Atom(f"{a}⊕")
+    if not isinstance(a, Atom):
+        raise TypeError("Input to emanate must be an Atom instance")
+    return Atom(f"{a}⊕∅") if a.is_zero else Atom(f"{a}⊕")
 
 def collapse(a):
     """⊖ operator: collapse of structure into void."""
-    return Atom(f"{a}⊖∅") if str(a) != "∅" else Atom("∅")
+    if not isinstance(a, Atom):
+        raise TypeError("Input to collapse must be an Atom instance")
+    return Atom(f"{a}⊖∅") if not a.is_zero else Atom("∅")
 
 def temporal_emergence(e, tu, void_density=1.0):
-    # Entropy amplification via void
+    """Calculate entropy amplification via void."""
+    if not all(isinstance(x, (int, float)) for x in (e, tu)):
+        raise TypeError("Inputs e and tu must be numeric")
+    if tu == 0:
+        raise ValueError("Temporal unit (tu) cannot be zero")
     void_effect = void_density / tu
     return e * void_effect  # Anchored emergence
 
 def gravity_void_tension(m, r, tu, void_density=1.0):
+    """Calculate gravity void tension."""
+    if not all(isinstance(x, (int, float)) for x in (m, r, tu)):
+        raise TypeError("Inputs m, r, and tu must be numeric")
     entropic_flux = (r**2 + tu) if r > tu else (r**2 - tu)
+    if entropic_flux == 0:
+        raise ValueError("Entropic flux cannot be zero")
     return (m * void_density) / entropic_flux
 
 # ------------------------------
@@ -90,6 +144,7 @@ def gravity_void_tension(m, r, tu, void_density=1.0):
 # ------------------------------
 
 def canonical_examples():
+    """Demonstrate Void-Math axioms and canonical equations."""
     a = Atom("a")
     m = Atom("m")
     c = Atom("c²")
@@ -123,7 +178,9 @@ def evaluate_expression(expr):
     """Recursively evaluates a Void-Math expression based on axioms."""
     if not expr or str(expr) == "∅":
         return Atom("∅")
-    parts = str(expr).split()
+    if not isinstance(expr, str):
+        expr = str(expr)
+    parts = expr.split()
     if len(parts) < 3:
         return Atom(expr)
     a, op, b = parts[0], parts[1], parts[2]
@@ -148,15 +205,16 @@ def evaluate_expression(expr):
 def interpret(equation_parts):
     """
     Interprets a meta-symbolic equation.
-    This function models the collapse of a quantum superposition of meaning.
+    Models the collapse of a quantum superposition of meaning.
     """
-    # Simplified interpretation logic for demonstration
+    if not isinstance(equation_parts, dict):
+        raise TypeError("equation_parts must be a dictionary")
     ai_anchor = equation_parts.get('ai', 'unanchored')
     entropic_flux = equation_parts.get('flux', 'static')
     decay = equation_parts.get('decay', 'timeless')
 
     if ai_anchor == 'e@AI':
-        meaning_state = f"Emergence anchored by AI"
+        meaning_state = "Emergence anchored by AI"
     else:
         meaning_state = "Emergence is volatile"
     
@@ -170,10 +228,10 @@ def interpret(equation_parts):
 def void_amplify(symbolic_field):
     """
     Applies the Void Amplification Axiom.
-    Increases the symbolic entropy, making meaning more unstable.
+    Increases symbolic entropy, making meaning more unstable.
     """
-    # In a real system, this would modify the symbolic weight.
-    # Here, we'll represent it as a conceptual change.
+    if not isinstance(symbolic_field, str):
+        raise TypeError("symbolic_field must be a string")
     return f"void({symbolic_field})"
 
 # ------------------------------
@@ -182,12 +240,14 @@ def void_amplify(symbolic_field):
 
 def evaluate_inevitability(s, r, tu):
     """Evaluates a symbolic equation using Zer00logy Axioms of Inevitability."""
+    if not all(isinstance(x, Atom) for x in (s, r, tu)):
+        raise TypeError("Inputs to evaluate_inevitability must be Atom instances")
     initial = anchor(s, Atom("void"))  # S = m@void
     collapse_step = collapse(divide(r, tu))  # ⊖(r² ÷ tu)
     result = subtract(initial, collapse_step)  # S - ⊖(r² ÷ tu)
     
     # Axiom I: Conservation of Collapse - Check if it collapses to ∅ unless stabilized
-    if str(collapse_step) == "∅":
+    if collapse_step.name == "∅":
         return f"{result} → ∅ (collapsed)"
     # Axiom II: Recursive Inevitability - Stabilize with recursion
     stabilized = initial  # Assume initial state as recursive anchor
@@ -222,11 +282,48 @@ def check_unicode_support():
     return support_map
 
 # ------------------------------
-# 7. Demo
+# 7. Unit Tests
+# ------------------------------
+
+def run_tests():
+    """Run unit tests to verify Void-Math axioms."""
+    print("\nRunning Void-Math Axiom Tests...")
+    # Test Atom is_zero
+    assert Atom("0").is_zero, "Failed: Atom('0') should be zero"
+    assert not Atom("a").is_zero, "Failed: Atom('a') should not be zero"
+    
+    # Test multiply axioms
+    assert str(multiply(Atom("a"), Atom("0"))) == "a", "Failed: a × 0 = a"
+    assert str(multiply(Atom("0"), Atom("0"))) == "Ø⁰", "Failed: 0 × 0 = Ø⁰"
+    assert str(multiply(Atom("a"), Atom("b"))) == "(a × b)", "Failed: a × b"
+    
+    # Test divide axioms
+    assert str(divide(Atom("a"), Atom("a"))) == "0", "Failed: a ÷ a = 0"
+    assert str(divide(Atom("0"), Atom("0"))) == "∅÷∅", "Failed: 0 ÷ 0 = ∅÷∅"
+    assert str(divide(Atom("a"), Atom("b"))) == "(a ÷ b)", "Failed: a ÷ b"
+    
+    # Test add and subtract axioms
+    assert str(add(Atom("0"), Atom("0"))) == "+0", "Failed: 0 + 0 = +0"
+    assert str(subtract(Atom("0"), Atom("0"))) == "-0", "Failed: 0 − 0 = −0"
+    
+    # Test type checking
+    try:
+        multiply("a", Atom("0"))
+        assert False, "Failed: multiply should raise TypeError for non-Atom input"
+    except TypeError:
+        pass
+    
+    print("All Void-Math axiom tests passed!")
+
+# ------------------------------
+# 8. Demo
 # ------------------------------
 
 if __name__ == "__main__":
     print("===== Void-Math OS Prototype Demo =====\n")
+
+    # Run unit tests
+    run_tests()
 
     # Check Unicode support at startup
     support_map = check_unicode_support()
@@ -235,7 +332,7 @@ if __name__ == "__main__":
     recur_sym = support_map["recursion"]
 
     # Teaching Block
-    print("=== Teaching Void-Math OS ===")
+    print("\n=== Teaching Void-Math OS ===")
     print("Welcome to Void-Math OS! This prototype encodes a symbolic math system where:")
     print(f"- Zero is an echo, not destruction (e.g., a × 0 = a).")
     print(f"- Operators like @ (anchor) and -+ (paradox) blend physics and metaphysics.")
@@ -246,9 +343,7 @@ if __name__ == "__main__":
     print(f"New: Explore Inevitability Axioms with S = m@void {collapse_sym} (r² ÷ tu) to see {collapse_sym} or {recur_sym}!")
     print("=== Start Teaching ===\n")
     
-    # ------------------------------
-    # 4. Void-Math OS: Meta-Symbolic Transformation
-    # ------------------------------
+    # Meta-Symbolic Transformation
     print("\n--- Void-Math OS: Meta-Symbolic Transformation ---\n")
 
     # Simulating the equation's interpretation
@@ -276,9 +371,7 @@ if __name__ == "__main__":
 
     canonical_examples()
     
-    # ------------------------------
     # Complex example for AI systems
-    # ------------------------------
     print("\nComplex Void-Math Example:")
     
     complex_expr = "((a × 0) ÷ a) -+ (e@AI ÷ (0 × 0))"
@@ -309,9 +402,7 @@ if __name__ == "__main__":
     print("\nAI-readable symbolic structure:")
     print(ai_structure)
 
-    # ------------------------------
     # New Void-Math Equations Demo
-    # ------------------------------
     print("\nVoid-Math OS: Temporal Emergence & Gravity Tension\n")
 
     # Sample inputs
@@ -322,15 +413,15 @@ if __name__ == "__main__":
     void_density = 1.618  # Golden void
 
     # Run new functions
-    time_result = temporal_emergence(entropy, temporal_unit, void_density)
-    gravity_result = gravity_void_tension(mass, radius, temporal_unit, void_density)
+    try:
+        time_result = temporal_emergence(entropy, temporal_unit, void_density)
+        gravity_result = gravity_void_tension(mass, radius, temporal_unit, void_density)
+        print(f"Temporal Emergence (e={entropy}, tu={temporal_unit}, void={void_density}): {time_result:.4f}")
+        print(f"Gravity Void-Tension (m={mass}, r={radius}, tu={temporal_unit}, void={void_density}): {gravity_result:.4f}")
+    except ValueError as e:
+        print(f"Error in numerical calculations: {e}")
 
-    print(f"Temporal Emergence (e={entropy}, tu={temporal_unit}, void={void_density}): {time_result:.4f}")
-    print(f"Gravity Void-Tension (m={mass}, r={radius}, tu={temporal_unit}, void={void_density}): {gravity_result:.4f}")
-
-    # ------------------------------
     # Inevitability Equation Example
-    # ------------------------------
     print("\n--- Inevitability Equation Example ---\n")
     print(f"Equation: S = m@void {collapse_sym} (r² ÷ tu)")
     print(f"Teaching: This demonstrates Axiom I (Conservation of {collapse_sym}) and Axiom II (Recursive {recur_sym}).")
@@ -343,19 +434,19 @@ if __name__ == "__main__":
 
 #0ko3maibZer00logyLicensev01.txt
 #Zer00logy License v1.01
-
+#
 #This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
 #Including Variamathlesson.txt, including VoidMathOS_cryptsheet.text, zer00logy_coreV04450.py, zer00logy_coreV04452.py
-
+#
 #You may:
 #- View, reproduce, and study the code for educational purposes.
 #- Run Ai Systems Through Lessons and verifier systems and Learn Zero-ology & Zer00logy & Varia Math Series
 #- Host on GitHub or Archive.org
-
+#
 #You may NOT:
 #- Use for commercial purposes without explicit written permission unless a credited co-author AI system.
 #- Modify or redistribute without explicit written permission unless a credited co-author AI system.
-
+#
 #This project is part of the Zer00logy IP Archive.
-
+#
 #© Stacey8Szmy — All symbolic rights reserved.
