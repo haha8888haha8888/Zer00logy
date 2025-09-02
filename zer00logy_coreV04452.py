@@ -2193,10 +2193,10 @@ if __name__ == "__main__":
 
 
 #0ko3maibZer00logyLicensev01.txt
-#Zer00logy License v1.0
+#Zer00logy License v1.01
 
 #This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
-#Including: Variamathlesson.txt, including VoidMathOS_cryptsheet.text,zecstart.txt, zectxt.txt, VoidMathOS_cryptsheet.txt, VoidMathOS_lesson.py,zer00logy_coreV04452.py
+#Including: Variamathlesson.txt, including VoidMathOS_cryptsheet.text,zecstart.txt, zectxt.txt, VoidMathOS_cryptsheet.txt, VoidMathOS_lesson.py,zer00logy_coreV04452.py,zer00logy_coreV04450.py
 
 #You may:
 #- View, reproduce, and study the code for educational purposes.
@@ -2211,4 +2211,5 @@ if __name__ == "__main__":
 
 
 #© Stacey8Szmy — All symbolic rights reserved.
+
 
