@@ -11,6 +11,7 @@ zectxt.txt
 VoidMathOS_cryptsheet.txt 
 VoidMathOS_lesson.py
 zer00logy_coreV04452.py
+zer00logy_coreV04450.py
 ISBN issued Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
 
 You may:
@@ -123,6 +124,7 @@ This license applies exclusively to the folder `ISBN_by_Stacey_SZMY` and its con
 This project is part of the Zer00logy IP Archive.
 
 © Stacey8Szmy — All symbolic rights reserved.
+
 
 
 
