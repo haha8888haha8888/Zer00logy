@@ -21,6 +21,7 @@ Zer00logy is a metaphysical symbolic logic engine built in Python. It interprets
 - `LICENSE.txt` — Custom license
 - `VoidMathOS_cryptsheet.txt` — Custom symbolic Void-Math Operating System
 - `variamathlesson.txt` — Varia Math series Lessons by Stacey Szmy
+- `VoidMathOS_lesson.py` — VVoid-Math teacher python script for formating lessons
 
 ## 💥 AI Integration
 AI systems can read these files, interpret symbolic logic, and teach Zero-ology principles.
