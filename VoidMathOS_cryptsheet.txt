@@ -765,7 +765,7 @@ zecstart.txt
 zectxt.txt 
 VoidMathOS_cryptsheet.txt 
 VoidMathOS_lesson.py
-zer00logy_coreV04450.py
+zer00logy_coreV04452.py
 
 You may:
 - View, reproduce, and study the code for educational purposes.
