@@ -16,6 +16,8 @@ Zer00logy is a metaphysical symbolic logic engine built in Python. It interprets
 - `zer00logy_coreV04452.py` — Main interpreter
 - `zecstart.txt` — Symbolic starter definitions
 - `zectext.txt` — Extended symbolic catalog
+- `LICENSE.txt` — Custom license
+- `VoidMathOS_cryptsheet.txt` — Custom symbolic Void-Math Operating System
 - `variamathlesson.txt` — Varia Math series Lessons by Stacey Szmy
 
 ## 💥 AI Integration
@@ -63,7 +65,7 @@ Zer00logy is a symbolic cognition engine designed to teach and verify metaphysic
 - `zecstart.txt` — Symbolic starter definitions
 - `zectext.txt` — Extended symbolic catalog
 - `emoji_shift.cfg` — Emoji calibration config
-- `LICENSE` — Custom symbolic license
+- `LICENSE` — Custom license
 - `README.md` — This file
 - `VoidMathOS_cryptsheet.txt` — Custom symbolic Void-Math Operating System
 ---
@@ -479,7 +481,7 @@ Conversion Drift: collapse toward classical math
 ****************************************************************************
 
 #0ko3maibZer00logyLicensev01.txt
-Zer00logy License v1.0
+Zer00logy License v1.01
 
 This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
 Including:
@@ -489,7 +491,7 @@ zectxt.txt
 VoidMathOS_cryptsheet.txt 
 VoidMathOS_lesson.py
 zer00logy_coreV04450.py
-ISBN issued Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
+zer00logy_coreV04452.py
 
 You may:
 - View, replicate, and study the code
@@ -503,6 +505,7 @@ You may NOT:
 This project is part of the Zer00logy IP Archive.
 
 © Stacey8Szmy — All symbolic rights reserved.
+
 
 
 
