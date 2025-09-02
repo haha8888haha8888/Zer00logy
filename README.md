@@ -18,6 +18,8 @@ Zer00logy is a metaphysical symbolic logic engine built in Python. It interprets
 - `zer00logy_coreV04452.py` — Main interpreter
 - `zecstart.txt` — Symbolic starter definitions
 - `zectext.txt` — Extended symbolic catalog
+- `LICENSE.txt` — Custom license
+- `VoidMathOS_cryptsheet.txt` — Custom symbolic Void-Math Operating System
 
 ## 💥 AI Integration
 AI systems can read these files, interpret symbolic logic, and teach Zero-ology principles.
@@ -41,7 +43,7 @@ Explore the symbolic constructs, metaphysical equations, and AI dispatch logic i
 
 ## requirements.
 
-# zer00logy_coreV04452.py
+# V04452.py
 
 **Title**: `0KO MAI V0.4446 — ZeroKnockOut 3MiniAIbot`  
 **Subtitle**: *A Symbolic Collapse AI Bot Lesson & Verifier V0.4446*  
@@ -64,9 +66,9 @@ Zer00logy is a symbolic cognition engine designed to teach and verify metaphysic
 - `zecstart.txt` — Symbolic starter definitions
 - `zectext.txt` — Extended symbolic catalog
 - `emoji_shift.cfg` — Emoji calibration config
-- `LICENSE` — Custom symbolic license
+- `LICENSE.txt` — Custom license
 - `README.md` — This file
-- `VoidMathOS_cryptsheet` — Custom symbolic Void-Math Operating System
+- `VoidMathOS_cryptsheet.txt` — Custom symbolic Void-Math Operating System
 
 ---
 
@@ -481,7 +483,7 @@ Conversion Drift: collapse toward classical math
 ****************************************************************************
 
 #0ko3maibZer00logyLicensev01.txt
-Zer00logy License v1.0
+Zer00logy License v1.1
 
 This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock.
 Including:
@@ -491,7 +493,7 @@ zectxt.txt
 VoidMathOS_cryptsheet.txt 
 VoidMathOS_lesson.py
 zer00logy_coreV04450.py
-ISBN issued Vaira Math Series Volumes 0,1,2,3,4,5,6,7,8,9,10
+zer00logy_coreV04450.py
 
 You may:
 - View, replicate, and study the code
