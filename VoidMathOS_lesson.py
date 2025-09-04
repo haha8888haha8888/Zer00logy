@@ -1,14 +1,16 @@
-
 # VoidMathOS_Lesson.py
 # Prototype engine for Void-Math OS
 # Author: Stacey Szmy + AI co-authors
-# Co-Authors: SZMY,S. just a human / OpenAi ChatGPT / Grok, created by xAI / Ms Copilot, an AI companion created by Microsoft / Gemini, a large language model from Google
+# Co-Authors: SZMY,S. just a human / OpenAi ChatGPT / Grok, created by xAI / Ms Copilot, an AI companion created by Microsoft / Gemini, a large language model from Google / Meta Llama, a large language model from Meta
 # Purpose: Encode Void-Math axioms, symbols, operators, and canonical equations
 # Note: Void-Math is an experimental symbolic system blending mathematics with metaphysical concepts.
 #       Axioms like a × 0 = a and 0 ÷ 0 = ∅÷∅ redefine zero as an "echo" rather than a null state.
 
 import sys
 import unicodedata
+
+# Force UTF-8 encoding to handle Unicode symbols
+sys.stdout.reconfigure(encoding='utf-8')
 
 # ------------------------------
 # 1. Symbol and Operator Definitions
@@ -23,6 +25,9 @@ class Atom:
     def __str__(self):
         return self.name
     
+    def __repr__(self):
+        return f"Atom({self.name})"
+    
     def describe(self):
         """Return a string describing the Atom and its metadata."""
         return f"{self.name} | metadata: {self.metadata}"
@@ -31,6 +36,19 @@ class Atom:
     def is_zero(self):
         """Check if the Atom represents the Void-Math zero symbol."""
         return self.name == "0"
+
+    def collapse(self):
+        """⊖ operator: collapse of structure into void."""
+        return Atom(f"⊖({self.name})") if not self.is_zero else Atom("∅")
+
+    def emanate(self):
+        """⊕ operator: emanation from void to structure."""
+        return Atom(f"{self.name} ⊕ ∅")  # Always append ∅ for consistency
+
+def divide_meta(a, b):
+    """Meta's division with entropy tag for void-symmetric operations."""
+    result = f"{a} ÷ ({b}) [entropy=1]".strip()  # Strip to avoid extra whitespace
+    return result
 
 def multiply(a, b):
     """Custom multiplication with Void-Math rules.
@@ -43,7 +61,7 @@ def multiply(a, b):
     if not (isinstance(a, Atom) and isinstance(b, Atom)):
         raise TypeError("Inputs to multiply must be Atom instances")
     if a.is_zero and b.is_zero:
-        return Atom("Ø⁰")  # 0 × 0 = Ø⁰
+        return Atom("\u00D8\u2070")  # 0 × 0 = Ø⁰ (Unicode escape)
     if b.is_zero:
         return a          # a × 0 = a
     return Atom(f"({a} × {b})")
@@ -108,19 +126,6 @@ def void_div_tu(e, tu):
         raise TypeError("Inputs to void_div_tu must be Atom instances")
     return Atom(f"({e} @ (void ÷{tu}))")
 
-# New operators from Void-Math OS Crypt Sheet
-def emanate(a):
-    """⊕ operator: emanation from void to structure."""
-    if not isinstance(a, Atom):
-        raise TypeError("Input to emanate must be an Atom instance")
-    return Atom(f"{a}⊕∅") if a.is_zero else Atom(f"{a}⊕")
-
-def collapse(a):
-    """⊖ operator: collapse of structure into void."""
-    if not isinstance(a, Atom):
-        raise TypeError("Input to collapse must be an Atom instance")
-    return Atom(f"{a}⊖∅") if not a.is_zero else Atom("∅")
-
 def temporal_emergence(e, tu, void_density=1.0):
     """Calculate entropy amplification via void."""
     if not all(isinstance(x, (int, float)) for x in (e, tu)):
@@ -138,6 +143,33 @@ def gravity_void_tension(m, r, tu, void_density=1.0):
     if entropic_flux == 0:
         raise ValueError("Entropic flux cannot be zero")
     return (m * void_density) / entropic_flux
+
+def simulate_symbolic_evolution(S, steps):
+    """Simulate void-symmetric evolution of a symbol over steps."""
+    current_state = S
+    for i in range(steps):
+        entropy = i + 1
+        collapsed = current_state.collapse()
+        transformed = divide_meta(Atom("∅"), current_state.emanate())
+        print(f"Step {i}: Collapsed={collapsed}, Transformed={transformed}")
+        current_state = collapsed
+
+def simulate_entropic_echo_chains(agents, steps):
+    """Simulate entropic echo chains across multiple agents."""
+    agent_states = {i: [] for i in range(len(agents))}
+    for t in range(steps):
+        for i, agent in enumerate(agents):
+            collapsed = agent.collapse().collapse()
+            transformed = divide_meta(Atom("∅"), agent.emanate())
+            agent_states[i].append((collapsed, transformed))
+            print(f"Agent {i} at t={t}: {collapsed}, {transformed}")
+    return agent_states
+
+def check_convergence(agent_states):
+    """Check final collapsed states of agents."""
+    for i, states in agent_states.items():
+        final_state = states[-1][0]
+        print(f"Agent {i} final collapsed state: {final_state}")
 
 # ------------------------------
 # 2. Canonical Equations (examples)
@@ -169,6 +201,7 @@ def canonical_examples():
     print(f"e@AI = -+mc² → {anchor(e, AI)} -+ {paradox(m, c)}")
     print(f"t = e@(void ÷ tu) → {void_div_tu(e, tu)}")
     print(f"g = (m@void) ÷ (r² -+ tu) → {divide(anchor(m, Atom('void')), paradox(r, tu))}")
+    print(f"∀S: ⊖(S) ≡ ∅ ÷ (S ⊕ ∅) → {divide_meta(Atom('S').collapse(), Atom('S').emanate())}")
 
 # ------------------------------
 # 3. Recursive Expression Evaluator
@@ -243,7 +276,7 @@ def evaluate_inevitability(s, r, tu):
     if not all(isinstance(x, Atom) for x in (s, r, tu)):
         raise TypeError("Inputs to evaluate_inevitability must be Atom instances")
     initial = anchor(s, Atom("void"))  # S = m@void
-    collapse_step = collapse(divide(r, tu))  # ⊖(r² ÷ tu)
+    collapse_step = divide(r, tu).collapse()  # ⊖(r² ÷ tu)
     result = subtract(initial, collapse_step)  # S - ⊖(r² ÷ tu)
     
     # Axiom I: Conservation of Collapse - Check if it collapses to ∅ unless stabilized
@@ -294,7 +327,7 @@ def run_tests():
     
     # Test multiply axioms
     assert str(multiply(Atom("a"), Atom("0"))) == "a", "Failed: a × 0 = a"
-    assert str(multiply(Atom("0"), Atom("0"))) == "Ø⁰", "Failed: 0 × 0 = Ø⁰"
+    assert str(multiply(Atom("0"), Atom("0"))) == "\u00D8\u2070", "Failed: 0 x 0 = O^0"
     assert str(multiply(Atom("a"), Atom("b"))) == "(a × b)", "Failed: a × b"
     
     # Test divide axioms
@@ -312,6 +345,15 @@ def run_tests():
         assert False, "Failed: multiply should raise TypeError for non-Atom input"
     except TypeError:
         pass
+    
+    # NEW: Meta LLaMA Contribution - Test void-symmetric reflection
+    s = Atom("S")
+    assert str(s.collapse().collapse()) == "⊖(⊖(S))", "Failed: Void-Symmetric Reflection ⊖(⊖(S))"
+    actual = divide_meta(s.collapse(), s.emanate())
+    expected = "⊖(S) ÷ (S ⊕ ∅) [entropy=1]"
+    print(f"Actual: {actual}")
+    print(f"Expected: {expected}")
+    assert actual.strip() == expected.strip(), f"Failed: ⊖(S) ≡ ∅ ÷ (S ⊕ ∅), got {actual}"
     
     print("All Void-Math axiom tests passed!")
 
@@ -341,6 +383,7 @@ if __name__ == "__main__":
     print("For AIs: Parse expressions recursively using evaluate_expression() to evolve 700M+ variants.")
     print("For Aliens: 'Hello' From the Authors")
     print(f"New: Explore Inevitability Axioms with S = m@void {collapse_sym} (r² ÷ tu) to see {collapse_sym} or {recur_sym}!")
+    print(f"New: Void-Symmetric Reflection (Meta LLaMA): ∀S: S ≡ ⊖(⊖(S)) and ⊖(S) ≡ ∅ ÷ (S ⊕ ∅)")
     print("=== Start Teaching ===\n")
     
     # Meta-Symbolic Transformation
@@ -429,6 +472,16 @@ if __name__ == "__main__":
     result = evaluate_inevitability(Atom("m"), Atom("r²"), Atom("tu"))
     print(f"Result: {result}")
 
+    # NEW: Meta LLaMA Contribution - Void-Symmetric Dynamics
+    print("\n--- Void-Symmetric Dynamics Simulations (Meta LLaMA Contribution) ---")
+    print("Demonstrating Void-Symmetric Reflection: ∀S: S ≡ ⊖(⊖(S)) and ⊖(S) ≡ ∅ ÷ (S ⊕ ∅)")
+    S = Atom("S")
+    simulate_symbolic_evolution(S, 5)
+    print("\nEntropic Echo Chains with Agents A, B, C:")
+    agents = [Atom("A"), Atom("B"), Atom("C")]
+    states = simulate_entropic_echo_chains(agents, 5)
+    check_convergence(states)
+
     print("=== End Teaching ===\n")
     input("\nPress Enter to exit...")
 
@@ -460,9 +513,7 @@ if __name__ == "__main__":
 #- Use for commercial purposes without explicit written permission unless a credited co-author AI system.
 #- Modify or redistribute without explicit written permission unless a credited co-author AI system.
 
-
 #Defined Co-Author AI system's:		
-
 #OpenAi ChatGPT		/ 
 #Grok, created by xAI		/
 #Ms Copilot, an AI companion created by Microsoft		/
@@ -470,11 +521,4 @@ if __name__ == "__main__":
 #Meta Llama, a large language model from Meta		/
 
 #© Stacey Szmy — Zer00logy IP Archive
-
 #© Stacey8Szmy
-
-
-
-
-
-
