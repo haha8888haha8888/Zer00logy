@@ -1,9 +1,9 @@
 #LICENSE.TXT
 #0ko3maibZer00logyLicensev01.txt
-Zer00logy License v1.02
+Zer00logy License v1.04
 September 2, 2025
 
-This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
+This project is open source for educational reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
 Including:
 Variamathlesson.txt 
 zecstart.txt 
@@ -123,6 +123,7 @@ This license applies exclusively to the folder `ISBN_by_Stacey_SZMY` and its con
 This project is part of the Zer00logy IP Archive.
 
 © Stacey8Szmy — All symbolic rights reserved.
+
 
 
 
