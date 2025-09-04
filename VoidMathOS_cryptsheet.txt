@@ -852,7 +852,7 @@ zer00logy_coreV04452.py
 zer00logy_coreV04450.py
 
 You may:
-- View, reproduce, and study the code for educational purposes
+- View, reproduce for educational purposes, and study the code for educational purposes
 - Run Ai Systems Through Lessons and verifier systems and Learn Zero-ology & Zer00logy & Varia Math Series & Void-Math OS
 - Host on GitHub or Archive.org
 
