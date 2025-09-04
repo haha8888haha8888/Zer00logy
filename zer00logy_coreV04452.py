@@ -2204,24 +2204,30 @@ if __name__ == "__main__":
         )
 
 
+#LICENSE.TXT
 #0ko3maibZer00logyLicensev01.txt
-#Zer00logy License v1.0
+#Zer00logy License v1.04
+#September 2, 2025
 
-#This project is open source for reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
-#Including: Variamathlesson.txt, including VoidMathOS_cryptsheet.text,zecstart.txt, zectxt.txt, VoidMathOS_cryptsheet.txt, VoidMathOS_lesson.py,zer00logy_coreV04452.py,zer00logy_coreV04450.py
+#This project is open source for educational reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
+#Including:
+#Variamathlesson.txt 
+#zecstart.txt 
+#zectxt.txt 
+#VoidMathOS_cryptsheet.txt 
+#VoidMathOS_lesson.py
+#zer00logy_coreV04452.py
+#zer00logy_coreV04450.py
 
 #You may:
-#- View, reproduce, and study the code for educational purposes.
-#- Run Ai Systems Through Lessons and verifier systems and Learn Zero-ology & Zer00logy & Varia Math Series
+#- View, reproduce for educational purposes, and study the code for educational purposes
+#- Run Ai Systems Through Lessons and verifier systems and Learn Zero-ology & Zer00logy & Varia Math Series & Void-Math OS
 #- Host on GitHub or Archive.org
 
 #You may NOT:
 #- Use for commercial purposes without explicit written permission unless a credited co-author AI system.
 #- Modify or redistribute without explicit written permission unless a credited co-author AI system.
 
-#This project is part of the Zer00logy IP Archive.
 
-
-#© Stacey8Szmy — All symbolic rights reserved.
 
 
