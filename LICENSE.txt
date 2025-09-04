@@ -12,6 +12,10 @@ VoidMathOS_cryptsheet.txt
 VoidMathOS_lesson.py
 zer00logy_coreV04452.py
 zer00logy_coreV04450.py
+README.md
+README_0KO3MAIB.txt
+LICENSE.txt
+0ko3maibZer00logyLicensev01.txt
 
 You may:
 - View, reproduce for educational purposes, and study the code for educational purposes
@@ -131,6 +135,7 @@ This license applies exclusively to the folder `ISBN_by_Stacey_SZMY` and its con
 © Stacey Szmy — Zer00logy IP Archive
 
 © Stacey8Szmy
+
 
 
 
