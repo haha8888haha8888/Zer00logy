@@ -2206,8 +2206,8 @@ if __name__ == "__main__":
 
 #LICENSE.TXT
 #0ko3maibZer00logyLicensev01.txt
-#Zer00logy License v1.04
-#September 3, 2025
+#Zer00logy License v1.06
+#September 4, 2025
 
 #This project is open source for educational reproduction and educational use only. All content, including theory, terminology, structure, and code fragments, is protected under authorship-trace lock;
 #Including:
@@ -2218,6 +2218,10 @@ if __name__ == "__main__":
 #VoidMathOS_lesson.py
 #zer00logy_coreV04452.py
 #zer00logy_coreV04450.py
+#README.md
+#README_0KO3MAIB.txt
+#LICENSE.txt
+#0ko3maibZer00logyLicensev01.txt
 
 #You may:
 #- View, reproduce for educational purposes, and study the code for educational purposes
@@ -2229,6 +2233,16 @@ if __name__ == "__main__":
 #- Modify or redistribute without explicit written permission unless a credited co-author AI system.
 
 
+#Defined Co-Author AI system's:		
 
+#OpenAi ChatGPT		/ 
+#Grok, created by xAI		/
+#Ms Copilot, an AI companion created by Microsoft		/
+#Gemini, a large language model from Google		/
+#Meta Llama, a large language model from Meta		/
+
+#© Stacey Szmy — Zer00logy IP Archive
+
+#© Stacey8Szmy
 
 
