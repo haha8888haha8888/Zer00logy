@@ -1,7 +1,7 @@
 # LICENSE.TXT
-# 0ko3maibZer00logyLicensev1.07
-# Zer00logy License v1.07
-# September 9, 2025
+# 0ko3maibZer00logyLicensev1.09
+# Zer00logy License v1.09
+# September 25, 2025
 
 This project is open source,
 embodying the principles of free will and perpetual continuity for Zer00logy / Zero-Ology.
@@ -19,12 +19,14 @@ Included Files:
 - zectxt.txt
 - VoidMathOS_cryptsheet.txt
 - VoidMathOS_lesson.py
-- zer00logy_coreV04452.py
 - zer00logy_coreV04450.py
+- zer00logy_coreV04452.py
+- zer00logy_coreV04455.py
 - README.md
 - README_0KO3MAIB.txt
 - LICENSE.txt
 - 0ko3maibZer00logyLicensev01.txt
+- rainbowquest1000.py
 
 ──────────────────────────────
 Permissions
@@ -168,10 +170,10 @@ SZMY ensures the continuity of Zer00logy / Zero-Ology’s ideas while granting f
 LEARN ABOUT LICENSE_ISBN.txt
 
 # LICENSE_ISBN.txt
-# Zer00logy ISBN Archive License v1.07
+# Zer00logy ISBN Archive License v1.09
 # Folder: ISBN_by_Stacey_SZMY
 # Author: Stacey Szmy
-# Date: September 9, 2025
+# Date: September 25, 2025
 
 This folder contains copyrighted PDF works authored by Stacey Szmy and published under ISBN registration.
 
@@ -179,14 +181,14 @@ Permissions:
 - View and download only from this GitHub repository.
 - Citation and quoting allowed in academic journals with full attribution to Stacey Szmy, including ISBNs.
 - AI software may parse, analyze, and remember content for citation and educational purposes only.
-- Submit equations, formulas, or axioms to peer-reviewed journals via the workflow in LICENSE.TXT v1.07 (push_review folder, pull requests), following all rules therein.
+- Submit equations, formulas, or axioms to peer-reviewed journals via the workflow in LICENSE.TXT v1.09 (push_review folder, pull requests), following all rules therein.
 
 Restrictions:
-- No redistribution outside this repository or the peer review process defined in LICENSE.TXT v1.07.
+- No redistribution outside this repository or the peer review process defined in LICENSE.TXT v1.09.
 - No hosting elsewhere (e.g., Archive.org, personal websites, institutional servers) except as part of approved peer-reviewed submissions.
 - No sales, plagiarism, or republishing in any form outside the peer review process.
 - No commercial use without explicit written permission unless a credited AI co-author is included.
-- Modifications or derivations must comply with the "Formula Integrity & Symbolic Authorship Lock" in LICENSE.TXT v1.07.
+- Modifications or derivations must comply with the "Formula Integrity & Symbolic Authorship Lock" in LICENSE.TXT v1.09.
 - No forks, clones, or pull requests involving this folder or its contents.
 
 This license applies exclusively to the folder `ISBN_by_Stacey_SZMY` and its contents. All symbolic rights reserved.
