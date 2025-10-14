@@ -3,7 +3,7 @@
 # Author: Stacey Szmy + AI co-authors
 # Co-Authors: SZMY,S. just a human / OpenAi ChatGPT / Grok, created by xAI / Ms Copilot, an AI companion created by Microsoft / Gemini, a large language model from Google / Meta Llama, a large language model from Meta
 # Purpose: Encode Void-Math axioms, symbols, operators, and canonical equations
-# Zer00logy License v1.10
+# Zer00logy License v1.11
 # Note: Void-Math is an experimental symbolic system blending mathematics with metaphysical concepts.
 #       Axioms like a × 0 = a and 0 ÷ 0 = ∅÷∅ redefine zero as an "echo" rather than a null state.
 
@@ -487,9 +487,10 @@ if __name__ == "__main__":
     input("\nPress Enter to exit...")
 
 # LICENSE.TXT
-# 0ko3maibZer00logyLicensev1.10
-# Zer00logy License v1.10
-# October 13, 2025
+# Zero-Ology License v1.11
+# 0ko3maibZero-OlogyLicensev01.txt
+# 0ko3maibZero-OlogyLicensev1.11
+# October 14, 2025
 #
 #This project is open source,
 #embodying the principles of free will and perpetual continuity for Zer00logy / Zero-Ology.
@@ -517,6 +518,7 @@ if __name__ == "__main__":
 #- 0ko3maibZer00logyLicensev01.txt
 #- rainbowquest1000.py
 #- GroupChatForge.py
+#- dispatchai_forge.py
 #
 #──────────────────────────────
 #Permissions

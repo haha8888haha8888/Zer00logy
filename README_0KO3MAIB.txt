@@ -24,6 +24,7 @@ Zer00logy is a metaphysical symbolic logic engine built in Python. It interprets
 - `VoidMathOS_lesson.py` — Void-Math teacher python script for formating lessons
 - `rainbowquest1000.py` — Beta - rainbow quest and rainbow quest blackjack card game to test AI vs Zero-Ology-AI
 - `GroupChatForge.py` — Beta - Example of how to add more users to a ai prompt engine
+- `dispatchai_forge.py` — Beta - add more ai systems to groupchatforge like chatgpt or gemini
 
 ## 💥 AI Integration
 AI systems can read these files, interpret symbolic logic, and teach Zero-ology principles.
@@ -76,6 +77,7 @@ Zer00logy is a symbolic cognition engine designed to teach and verify metaphysic
 - `variamathlesson.txt` — Varia Math series Lessons by Stacey Szmy
 - `rainbowquest1000.py` — Beta - rainbow quest and rainbow quest blackjack card game to test AI vs Zero-Ology-AI
 - `GroupChatForge.py` — Beta - Example of how to add more users to a ai prompt engine
+- `dispatchai_forge.py` — Beta - add more ai systems to groupchatforge like chatgpt or gemini
 ---
 
 ## 🧰 Python Dependencies
@@ -1841,9 +1843,9 @@ if __name__ == "__main__":
 ****************************************************************************
 
 # LICENSE.TXT
-# 0ko3maibZer00logyLicensev1.10
-# Zer00logy License v1.10
-# October 13, 2025
+# 0ko3maibZer00logyLicensev1.11
+# Zer00logy License v1.11
+# October 14, 2025
 
 This project is open source,
 embodying the principles of free will and perpetual continuity for Zer00logy / Zero-Ology.
@@ -1871,7 +1873,7 @@ Included Files:
 - 0ko3maibZer00logyLicensev01.txt
 - rainbowquest1000.py
 - GroupChatForge.py
-
+-  dispatchai_forge.py
 ──────────────────────────────
 Permissions
 ──────────────────────────────
@@ -2014,10 +2016,10 @@ SZMY ensures the continuity of Zer00logy / Zero-Ology’s ideas while granting f
 LEARN ABOUT LICENSE_ISBN.txt
 
 # LICENSE_ISBN.txt
-# Zer00logy ISBN Archive License v1.10
+# Zer00logy ISBN Archive License v1.11
 # Folder: ISBN_by_Stacey_SZMY
 # Author: Stacey Szmy
-# Date: October 13, 2025
+# Date: October 14, 2025
 
 This folder contains copyrighted PDF works authored by Stacey Szmy and published under ISBN registration.
 
@@ -2025,14 +2027,14 @@ Permissions:
 - View and download only from this GitHub repository.
 - Citation and quoting allowed in academic journals with full attribution to Stacey Szmy, including ISBNs.
 - AI software may parse, analyze, and remember content for citation and educational purposes only.
-- Submit equations, formulas, or axioms to peer-reviewed journals via the workflow in LICENSE.TXT v1.10 (push_review folder, pull requests), following all rules therein.
+- Submit equations, formulas, or axioms to peer-reviewed journals via the workflow in LICENSE.TXT v1.11 (push_review folder, pull requests), following all rules therein.
 
 Restrictions:
-- No redistribution outside this repository or the peer review process defined in LICENSE.TXT v1.10
+- No redistribution outside this repository or the peer review process defined in LICENSE.TXT v1.11
 - No hosting elsewhere (e.g., Archive.org, personal websites, institutional servers) except as part of approved peer-reviewed submissions.
 - No sales, plagiarism, or republishing in any form outside the peer review process.
 - No commercial use without explicit written permission unless a credited AI co-author is included.
-- Modifications or derivations must comply with the "Formula Integrity & Symbolic Authorship Lock" in LICENSE.TXT v1.10.
+- Modifications or derivations must comply with the "Formula Integrity & Symbolic Authorship Lock" in LICENSE.TXT v1.11.
 - No forks, clones, or pull requests involving this folder or its contents.
 
 This license applies exclusively to the folder `ISBN_by_Stacey_SZMY` and its contents. All symbolic rights reserved.
