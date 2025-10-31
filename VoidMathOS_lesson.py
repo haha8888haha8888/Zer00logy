@@ -3,7 +3,7 @@
 # Author: Stacey Szmy + AI co-authors
 # Co-Authors: SZMY,S. just a human / OpenAi ChatGPT / Grok, created by xAI / Ms Copilot, an AI companion created by Microsoft / Gemini, a large language model from Google / Meta Llama, a large language model from Meta
 # Purpose: Encode Void-Math axioms, symbols, operators, and canonical equations
-# Zer00logy License v1.11
+# Zer00logy License v1.13
 # Note: Void-Math is an experimental symbolic system blending mathematics with metaphysical concepts.
 #       Axioms like a × 0 = a and 0 ÷ 0 = ∅÷∅ redefine zero as an "echo" rather than a null state.
 
@@ -486,11 +486,11 @@ if __name__ == "__main__":
     print("=== End Teaching ===\n")
     input("\nPress Enter to exit...")
 
+
 # LICENSE.TXT
-# Zero-Ology License v1.11
-# 0ko3maibZero-OlogyLicensev01.txt
-# 0ko3maibZero-OlogyLicensev1.11
-# October 14, 2025
+# 0ko3maibZer00logyLicensev1.13
+# Zer00logy License v1.13
+# October 31, 2025
 #
 #This project is open source,
 #embodying the principles of free will and perpetual continuity for Zer00logy / Zero-Ology.
@@ -507,11 +507,18 @@ if __name__ == "__main__":
 #- zecstart.txt
 #- zectxt.txt
 #- VoidMathOS_cryptsheet.txt
+#- VAIRA_addendum.txt
+#- confusious&how_to_cut_a_cake.txt
+#- NSRHFsuite0020V.py
+#- RHFsuite0020V.py
+#- RRHLFon0022V.py
+#- SBHFFsuite0020V.py
 #- VoidMathOS_lesson.py
 #- zer00logy_coreV04450.py
 #- zer00logy_coreV04452.py
 #- zer00logy_coreV04455.py
 #- zer00logy_coreV04456.py
+#- zer00logy_coreV04459.py
 #- README.md
 #- README_0KO3MAIB.txt
 #- LICENSE.txt
@@ -587,3 +594,4 @@ if __name__ == "__main__":
 #─────────────────────────────
 #© Stacey8Szmy
 #© Stacey8Szmy — Zer00logy IP Archive
+
