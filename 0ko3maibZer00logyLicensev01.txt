@@ -1,6 +1,6 @@
 # 0ko3maibZer00logyLicensev01.txt
-# 0ko3maibZer00logyLicensev1.13
-# October 31, 2025
+# 0ko3maibZer00logyLicensev1.15
+# November 02, 2025
 
 This project is open source,
 embodying the principles of free will and perpetual continuity for Zer00logy / Zero-Ology.
@@ -29,6 +29,7 @@ Included Files:
 - zer00logy_coreV04455.py
 - zer00logy_coreV04456.py
 - zer00logy_coreV04459.py
+- zer00logy_coreV04461.py
 - README.md
 - README_0KO3MAIB.txt
 - LICENSE.txt
@@ -36,6 +37,16 @@ Included Files:
 - rainbowquest1000.py
 - GroupChatForge.py
 - dispatchai_forge.py
+- szmy_truths.txt
+- szmy_truths.py
+- Zero_Freeze_Hamiltonian_Lattice_Gauge_Benchmark_Suite.py
+- Zero_Freeze_Yang--Mills_Formula.txt
+- Zero_Freeze_Yang--Mills_Formula_Numerical_and_Computational_Study_(latax_v2_2).txt
+- Zero_Freeze_Yang--Mills_Formula_Numerical_and_Computational_Study_(Plaintext_v2_2).docx
+- grand_summary_20251102_114655_Real_SU(3)_operator.JSON
+- grand_summary_20251102_114655_Real_SU(3)_operator.CSV
+- grand_summary_20251102_114247_placeholder.JSON
+- grand_summary_20251102_114247_placeholder.CSV
 
 
 ──────────────────────────────
@@ -180,10 +191,10 @@ SZMY ensures the continuity of Zer00logy / Zero-Ology’s ideas while granting f
 LEARN ABOUT LICENSE_ISBN.txt
 
 # LICENSE_ISBN.txt
-# Zer00logy ISBN Archive License v1.13
+# Zer00logy ISBN Archive License v1.15
 # Folder: ISBN_by_Stacey_SZMY
 # Author: Stacey Szmy
-# Date: October 31, 2025
+# Date: November 02, 2025
 
 This folder contains copyrighted PDF works authored by Stacey Szmy and published under ISBN registration.
 
@@ -191,31 +202,19 @@ Permissions:
 - View and download only from this GitHub repository.
 - Citation and quoting allowed in academic journals with full attribution to Stacey Szmy, including ISBNs.
 - AI software may parse, analyze, and remember content for citation and educational purposes only.
-- Submit equations, formulas, or axioms to peer-reviewed journals via the workflow in LICENSE.TXT v1.13 (push_review folder, pull requests), following all rules therein.
+- Submit equations, formulas, or axioms to peer-reviewed journals via the workflow in LICENSE.TXT v1.15 (push_review folder, pull requests), following all rules therein.
 
 Restrictions:
-- No redistribution outside this repository or the peer review process defined in LICENSE.TXT v1.13.
+- No redistribution outside this repository or the peer review process defined in LICENSE.TXT v1.15.
 - No hosting elsewhere (e.g., Archive.org, personal websites, institutional servers) except as part of approved peer-reviewed submissions.
 - No sales, plagiarism, or republishing in any form outside the peer review process.
 - No commercial use without explicit written permission unless a credited AI co-author is included.
-- Modifications or derivations must comply with the "Formula Integrity & Symbolic Authorship Lock" in LICENSE.TXT v1.13.
+- Modifications or derivations must comply with the "Formula Integrity & Symbolic Authorship Lock" in LICENSE.TXT v1.15.
 - No forks, clones, or pull requests involving this folder or its contents.
 
 This license applies exclusively to the folder `ISBN_by_Stacey_SZMY` and its contents. All symbolic rights reserved.
 
 © Stacey8Szmy
 © Stacey8Szmy — Zer00logy IP Archive
-
-
-
-
-
-
-
-
-
-
-
-
 
 

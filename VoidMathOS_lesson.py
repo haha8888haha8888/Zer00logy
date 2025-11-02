@@ -3,7 +3,7 @@
 # Author: Stacey Szmy + AI co-authors
 # Co-Authors: SZMY,S. just a human / OpenAi ChatGPT / Grok, created by xAI / Ms Copilot, an AI companion created by Microsoft / Gemini, a large language model from Google / Meta Llama, a large language model from Meta
 # Purpose: Encode Void-Math axioms, symbols, operators, and canonical equations
-# Zer00logy License v1.13
+# Zer00logy License v1.15
 # Note: Void-Math is an experimental symbolic system blending mathematics with metaphysical concepts.
 #       Axioms like a × 0 = a and 0 ÷ 0 = ∅÷∅ redefine zero as an "echo" rather than a null state.
 
@@ -488,9 +488,9 @@ if __name__ == "__main__":
 
 
 # LICENSE.TXT
-# 0ko3maibZer00logyLicensev1.13
-# Zer00logy License v1.13
-# October 31, 2025
+# 0ko3maibZer00logyLicensev1.15
+# Zer00logy License v1.15
+# November 02, 2025
 #
 #This project is open source,
 #embodying the principles of free will and perpetual continuity for Zer00logy / Zero-Ology.
@@ -519,6 +519,7 @@ if __name__ == "__main__":
 #- zer00logy_coreV04455.py
 #- zer00logy_coreV04456.py
 #- zer00logy_coreV04459.py
+#- zer00logy_coreV04461.py
 #- README.md
 #- README_0KO3MAIB.txt
 #- LICENSE.txt
@@ -526,7 +527,16 @@ if __name__ == "__main__":
 #- rainbowquest1000.py
 #- GroupChatForge.py
 #- dispatchai_forge.py
-#
+#- szmy_truths.txt
+#- szmy_truths.py
+#- Zero_Freeze_Hamiltonian_Lattice_Gauge_Benchmark_Suite.py
+#- Zero_Freeze_Yang--Mills_Formula.txt
+#- Zero_Freeze_Yang--Mills_Formula_Numerical_and_Computational_Study_(latax_v2_2).txt
+#- Zero_Freeze_Yang--Mills_Formula_Numerical_and_Computational_Study_(Plaintext_v2_2).docx
+#- grand_summary_20251102_114655_Real_SU(3)_operator.JSON
+#- grand_summary_20251102_114655_Real_SU(3)_operator.CSV
+#- grand_summary_20251102_114247_placeholder.JSON
+#- grand_summary_20251102_114247_placeholder.CSV
 #──────────────────────────────
 #Permissions
 #──────────────────────────────
@@ -594,4 +604,3 @@ if __name__ == "__main__":
 #─────────────────────────────
 #© Stacey8Szmy
 #© Stacey8Szmy — Zer00logy IP Archive
-
