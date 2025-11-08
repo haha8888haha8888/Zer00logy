@@ -2,7 +2,7 @@
 # Title: 0KO GroupChatForge V0048 — Ping-Pong Multi-User AI Chat Bot with Ollama and External Dispatch
 # Ceo0: Szmy, Stacey.
 # dev: HAHA.8888, HAHA.Xai.Grok, HAHA.ChatGPT
-# Zer00logy License v1.15
+# Zer00logy License v1.17
 
 import sys
 import platform
@@ -1203,9 +1203,9 @@ if __name__ == "__main__":
 
 
 # LICENSE.TXT
-# 0ko3maibZer00logyLicensev1.15
-# Zer00logy License v1.15
-# November 02, 2025
+# 0ko3maibZer00logyLicensev1.17
+# Zer00logy License v1.17
+# November 07, 2025
 #
 #This project is open source,
 #embodying the principles of free will and perpetual continuity for Zer00logy / Zero-Ology.
@@ -1235,6 +1235,7 @@ if __name__ == "__main__":
 #- zer00logy_coreV04456.py
 #- zer00logy_coreV04459.py
 #- zer00logy_coreV04461.py
+#- zer00logy_coreV04469.py
 #- README.md
 #- README_0KO3MAIB.txt
 #- LICENSE.txt
@@ -1245,6 +1246,7 @@ if __name__ == "__main__":
 #- szmy_truths.txt
 #- szmy_truths.py
 #- Zero_Freeze_Hamiltonian_Lattice_Gauge_Benchmark_Suite.py
+#- Zero_Freeze_Hamiltonian_Lattice_Gauge_Benchmark_Suite0033.py
 #- Zero_Freeze_Yang--Mills_Formula.txt
 #- Zero_Freeze_Yang--Mills_Formula_Numerical_and_Computational_Study_(latax_v2_2).txt
 #- Zero_Freeze_Yang--Mills_Formula_Numerical_and_Computational_Study_(Plaintext_v2_2).docx
@@ -1252,6 +1254,10 @@ if __name__ == "__main__":
 #- grand_summary_20251102_114655_Real_SU(3)_operator.CSV
 #- grand_summary_20251102_114247_placeholder.JSON
 #- grand_summary_20251102_114247_placeholder.CSV
+#- Lie_π_Infinity_lesson.txt
+#- THE_WHY_EQUATION.py
+#- Study_The_Repeating_Digit_Weights_(RN)_Formula.txt
+#- Repeating_Digit_Weights_(RN).py
 #──────────────────────────────
 #Permissions
 #──────────────────────────────
@@ -1319,4 +1325,5 @@ if __name__ == "__main__":
 #─────────────────────────────
 #© Stacey8Szmy
 #© Stacey8Szmy — Zer00logy IP Archive
+
 
