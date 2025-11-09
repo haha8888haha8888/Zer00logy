@@ -1,6 +1,6 @@
 #THE_WHY_EQUATION.py
 #Lies Infinity Pies
-# 0ko3maibZer00logyLicensev1.7
+# 0ko3maibZer00logyLicensev1.17
 # Zer00logy License v1.17
 
 #!/usr/bin/env python3
@@ -289,3 +289,4 @@ if __name__ == "__main__":
 #─────────────────────────────
 #© Stacey8Szmy
 #© Stacey8Szmy — Zer00logy IP Archive
+
