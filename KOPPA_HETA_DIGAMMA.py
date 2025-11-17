@@ -5,7 +5,7 @@
 # TRIPTYCH: Ϟ = N | Η = ΣCᵢ | Ϝ = Η − Ϟ
 # KOPPA_HETA_DIGAMMA.py
 # KOPPA_HETA_DIGAMMA_v0004
-# Zer00logy License v1.1916 # 0ko3maibZer00logyLicensev1.1916
+# Zer00logy License v1.19161 # 0ko3maibZer00logyLicensev1.19161
 # ===================================================================
 
 import math
@@ -1081,3 +1081,4 @@ if __name__ == "__main__":
 #─────────────────────────────
 #© Stacey8Szmy
 #© Stacey8Szmy — Zer00logy IP Archive
+
