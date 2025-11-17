@@ -5,7 +5,7 @@
 # TRIPTYCH: Ϟ = N | Η = ΣCᵢ | Ϝ = Η − Ϟ
 # KOPPA_HETA_DIGAMMA.py
 # KOPPA_HETA_DIGAMMA_v0004
-# Zero-Ology License v1.1916 # 0ko3maibZero-OlogyLicensev1.1916
+# Zer00logy License v1.1916 # 0ko3maibZer00logyLicensev1.1916
 # ===================================================================
 
 import math
