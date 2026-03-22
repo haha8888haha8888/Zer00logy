@@ -226,7 +226,7 @@ NV@*_S:If NV@* present&no direct C@#^T→c+t_M@#h T@ NOT ^R F@*
 ###########################################
 
 # LICENSE.TXT
-# Zero-Ology License v1.19310
+# Zer00logy License v1.19310
 # March 10, 2026
 
 This project is open source,
@@ -238,6 +238,7 @@ structure, code fragments, and .txt files—for any purpose, including commercia
 
 All content remains protected under an authorship-trace lock,
 with the conceptual foundation credited to Stacey Szmy.
+
 
 Included Files:
 - Variamathlesson.txt
@@ -312,7 +313,7 @@ Included Files:
 - KNCF_Suite.py
 - KNCF_log_31026.txt
 - szmy_mirror_model.txt
-- SMM_suite.py
+- SMM_Suite.py
 - SMM_log.txt
 - AWAKE_ERDŐS_STEP_RESONANCE_FRAMEWORK.txt
 - AESR_Suite.py
@@ -332,31 +333,6 @@ Use and Distribution:
 - Freely use, copy, modify, and distribute this software and its content in source or compiled form.
 - Commercial applications permitted, provided attribution rules (see below) are followed.
 
-Source Code Access & Compliance Paths
-──────────────────────────────
-General Rule:
-- Users are not required to publish their source code unless they are releasing their work under an open-source license, in which case standard open-source distribution rules apply (source must be available as defined by that license).
-
-Closed-Source or Proprietary Use:
-- Companies or individuals may use Zer00logy content in proprietary or closed
-systems without publishing their source code, provided they include proper
-attribution to Stacey Szmy / Zero-Ology or Zer00logy in credits, documentation, or acknowledgments.
-
-Exemptions:
-- Recognized co-author AI systems (ChatGPT, Grok, Microsoft Copilot, Gemini,
-LLaMA) are exempt from additional compliance requirements. Their co-authorship status is already acknowledged under this license.
-
-Compliance Paths:
-- Two optional compliance paths allow closed or private code use:
-  • **OKOKOK Path**: Open-source or AI entities may submit a unique `.exe` file with ID + icon to the `OKOKOK` folder in the Zero-Ology GitHub repository.
-  • **YESYESYES Path**: Private companies may comply by either acknowledging Zero-Ology authorship or submitting a unique `.exe` file with ID + icon to the `YESYESYES` folder in the Zero-Ology GitHub repository.
-
-Derived Works:
-- Modifications or derived works must follow this license and the Attribution Propagation clause.
-
-Community Hosting:
-- Hosting is permitted on platforms such as GitHub, Archive.org, or personal servers, provided attribution rules are met.
-
 ──────────────────────────────
 Restrictions
 ──────────────────────────────
@@ -374,7 +350,6 @@ or
 No Removal of License:
 - This license must remain attached to all redistributions.
 
-
 ──────────────────────────────
 Co-Author AI Systems
 ──────────────────────────────
@@ -388,10 +363,11 @@ Co-Author AI Systems
 Endless Life Commitment
 ──────────────────────────────
 All symbolic rights reserved.  
-SZMY ensures the continuity of Zero-Ology / Zer00logy’s ideas while granting free will to adapt them.
+SZMY ensures the continuity of Zer00logy / Zero-Ology’s ideas while granting free will to adapt them.
+
+─────────────────────────────
 
 www.zero-ology.com
 
-© Stacey Szmy 
-© Stacey8Szmy — Zero-Ology IP Archive
-
+© Stacey8Szmy
+© Stacey8Szmy — Zer00logy IP Archive
