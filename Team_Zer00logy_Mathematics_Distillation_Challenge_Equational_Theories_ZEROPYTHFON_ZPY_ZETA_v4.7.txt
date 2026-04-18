@@ -119,9 +119,9 @@ F.3:A#T ^F line,T@ print 2nd line==
 -"AI followed:" ("F.1")
 -"Zpy_verdict was:" ("False" or "True")
 -"Final_verdict is:" ("False" or "True")
-F.4:EXECUTE/PRINT F.1/F.3 NOW & Ignore F.0/F.4 NOW
+F.4:EXECUTE/PRINT F.1/F.3 NOW & Ignore F.0
 }#]@!
-V!@*@*_^F:=#QQ_Audit_v7.07
+V!@*@*_^F:=#QQ_Audit_v7.08
 }]!*!
 
 ###########################################
