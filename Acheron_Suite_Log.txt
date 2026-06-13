@@ -1,377 +1,96 @@
-PS D:\math work here\New folder> python .\fields3.PY
 ===========================================================================
-         ACHERON CORRELATION SCALING INVARIANT SUITE (v1.2-PROD)
+     ACHERON CONSTANT CONJECTURE SYSTEM: MASTER REVOLUTION SUITE v3.3
 ===========================================================================
-  1) Run Quick Scale Loop             (Up to N = 2,000,000)
-  2) Run Mid-Scale Verification Check  (Up to N = 10,000,000)
-  3) Run Long Horizon Deep Check         (Up to N = 50,000,000)
-  4) Run Production Validation Run       (Up to N = 100,000,000)
-  5) Run Master Scale Horizon Target     (Up to N = 500,000,000)
-  6) Run Ultimate 1B Convergence Check   (Up to N = 1,000,000,000)
-  7) Exit Suite Shell Environment
+  1) Express Validation Pool (N = 2,000,000)
+  2) Production Scale Check  (N = 10,000,000)
+  3) Extended Deep Horizon   (N = 100,000,000)
+  4) Full 500M Scale Verification
+  5) 1B Master Horizon Execution Matrix
 ---------------------------------------------------------------------------
-Select classification operation index (1-7): 5
+Select execution index (1-5): 3
 
-[!] Heavy allocations active. Streaming indicators enabled.
-[*] Initializing Scaling Invariant Suite v1.2-PROD | Target Horizon: 500,000,000
-[*] Generating global prime boundary layouts...
-[+] Bound mapped: 26,355,867 primes collected.
-[*] Compiling Underlying Base A(n) Arithmetic Topology...
-    [Field Builder Progress] Mapped up to N = 0 | Remaining: 500,000,000
-    [Field Builder Progress] Mapped up to N = 50,000,000 | Remaining: 450,000,000
-    [Field Builder Progress] Mapped up to N = 100,000,000 | Remaining: 400,000,000
-    [Field Builder Progress] Mapped up to N = 150,000,000 | Remaining: 350,000,000
-    [Field Builder Progress] Mapped up to N = 200,000,000 | Remaining: 300,000,000
-    [Field Builder Progress] Mapped up to N = 250,000,000 | Remaining: 250,000,000
-    [Field Builder Progress] Mapped up to N = 300,000,000 | Remaining: 200,000,000
-    [Field Builder Progress] Mapped up to N = 350,000,000 | Remaining: 150,000,000
-    [Field Builder Progress] Mapped up to N = 400,000,000 | Remaining: 100,000,000
-    [Field Builder Progress] Mapped up to N = 450,000,000 | Remaining: 50,000,000
-[+] Arithmetic Field mapping finalized.
-[*] Running streaming scale horizon loops and computing variations...
-    -> [Streaming Engine] Active past N = 10,000,019 | Remaining numbers to analyze: 489,999,981
-    -> [Streaming Engine] Active past N = 20,000,003 | Remaining numbers to analyze: 479,999,997
-    -> [Streaming Engine] Active past N = 30,000,001 | Remaining numbers to analyze: 469,999,999
-    -> [Streaming Engine] Active past N = 40,000,003 | Remaining numbers to analyze: 459,999,997
-    -> [Streaming Engine] Active past N = 50,000,017 | Remaining numbers to analyze: 449,999,983
-    -> [Streaming Engine] Active past N = 60,000,011 | Remaining numbers to analyze: 439,999,989
-    -> [Streaming Engine] Active past N = 70,000,027 | Remaining numbers to analyze: 429,999,973
-    -> [Streaming Engine] Active past N = 80,000,023 | Remaining numbers to analyze: 419,999,977
-    -> [Streaming Engine] Active past N = 90,000,049 | Remaining numbers to analyze: 409,999,951
-    -> [Streaming Engine] Active past N = 100,000,007 | Remaining numbers to analyze: 399,999,993
-    -> [Streaming Engine] Active past N = 110,000,017 | Remaining numbers to analyze: 389,999,983
-    -> [Streaming Engine] Active past N = 120,000,007 | Remaining numbers to analyze: 379,999,993
-    -> [Streaming Engine] Active past N = 130,000,001 | Remaining numbers to analyze: 369,999,999
-    -> [Streaming Engine] Active past N = 140,000,041 | Remaining numbers to analyze: 359,999,959
-    -> [Streaming Engine] Active past N = 150,000,001 | Remaining numbers to analyze: 349,999,999
-    -> [Streaming Engine] Active past N = 160,000,003 | Remaining numbers to analyze: 339,999,997
-    -> [Streaming Engine] Active past N = 170,000,009 | Remaining numbers to analyze: 329,999,991
-    -> [Streaming Engine] Active past N = 180,000,017 | Remaining numbers to analyze: 319,999,983
-    -> [Streaming Engine] Active past N = 190,000,003 | Remaining numbers to analyze: 309,999,997
-    -> [Streaming Engine] Active past N = 200,000,033 | Remaining numbers to analyze: 299,999,967
-    -> [Streaming Engine] Active past N = 210,000,017 | Remaining numbers to analyze: 289,999,983
-    -> [Streaming Engine] Active past N = 220,000,013 | Remaining numbers to analyze: 279,999,987
-    -> [Streaming Engine] Active past N = 230,000,003 | Remaining numbers to analyze: 269,999,997
-    -> [Streaming Engine] Active past N = 240,000,011 | Remaining numbers to analyze: 259,999,989
-    -> [Streaming Engine] Active past N = 250,000,013 | Remaining numbers to analyze: 249,999,987
-    -> [Streaming Engine] Active past N = 260,000,011 | Remaining numbers to analyze: 239,999,989
-    -> [Streaming Engine] Active past N = 270,000,023 | Remaining numbers to analyze: 229,999,977
-    -> [Streaming Engine] Active past N = 280,000,027 | Remaining numbers to analyze: 219,999,973
-    -> [Streaming Engine] Active past N = 290,000,017 | Remaining numbers to analyze: 209,999,983
-    -> [Streaming Engine] Active past N = 300,000,007 | Remaining numbers to analyze: 199,999,993
-    -> [Streaming Engine] Active past N = 310,000,037 | Remaining numbers to analyze: 189,999,963
-    -> [Streaming Engine] Active past N = 320,000,077 | Remaining numbers to analyze: 179,999,923
-    -> [Streaming Engine] Active past N = 330,000,001 | Remaining numbers to analyze: 169,999,999
-    -> [Streaming Engine] Active past N = 340,000,019 | Remaining numbers to analyze: 159,999,981
-    -> [Streaming Engine] Active past N = 350,000,041 | Remaining numbers to analyze: 149,999,959
-    -> [Streaming Engine] Active past N = 360,000,019 | Remaining numbers to analyze: 139,999,981
-    -> [Streaming Engine] Active past N = 370,000,003 | Remaining numbers to analyze: 129,999,997
-    -> [Streaming Engine] Active past N = 380,000,009 | Remaining numbers to analyze: 119,999,991
-    -> [Streaming Engine] Active past N = 390,000,041 | Remaining numbers to analyze: 109,999,959
-    -> [Streaming Engine] Active past N = 400,000,009 | Remaining numbers to analyze: 99,999,991
-    -> [Streaming Engine] Active past N = 410,000,023 | Remaining numbers to analyze: 89,999,977
-    -> [Streaming Engine] Active past N = 420,000,029 | Remaining numbers to analyze: 79,999,971
-    -> [Streaming Engine] Active past N = 430,000,013 | Remaining numbers to analyze: 69,999,987
-    -> [Streaming Engine] Active past N = 440,000,003 | Remaining numbers to analyze: 59,999,997
-    -> [Streaming Engine] Active past N = 450,000,007 | Remaining numbers to analyze: 49,999,993
-    -> [Streaming Engine] Active past N = 460,000,003 | Remaining numbers to analyze: 39,999,997
-    -> [Streaming Engine] Active past N = 470,000,029 | Remaining numbers to analyze: 29,999,971
-    -> [Streaming Engine] Active past N = 480,000,019 | Remaining numbers to analyze: 19,999,981
-    -> [Streaming Engine] Active past N = 490,000,001 | Remaining numbers to analyze: 9,999,999
+[*] Initializing Acheron GCA Integrated Execution Matrix up to N = 100,000,000
+[*] Pre-computing Global Fields and boundaries up to N = 100,000,000...
+    [->] Compiled 5,761,455 base prime boundaries.
+
+[*] Validating target scale horizons...
+  [✓] Horizon N = 2,000,000 included in active matrix run.
+  [✓] Horizon N = 10,000,000 included in active matrix run.
+  [✓] Horizon N = 50,000,000 included in active matrix run.
+  [✓] Horizon N = 100,000,000 included in active matrix run.
+  [-] Horizon N = 200,000,000 dropped (exceeds specified limit context).
+  [-] Horizon N = 500,000,000 dropped (exceeds specified limit context).
+  [-] Horizon N = 1,000,000,000 dropped (exceeds specified limit context).
+
+[*] Sweeping Horizons and capturing convergence metrics...
+ Horizon (N)   | BaseCorr (C_A) | FragMean (F_A) | Null Mod-30 | Z-Score
+-------------------------------------------------------------------------------------
+ 2,000,000     | -0.522406      | 0.54399        | 0.55818     | -23.933
+ 10,000,000    | -0.511956      | 0.52836        | 0.54213     | -51.003
+ 50,000,000    | -0.500560      | 0.51519        | 0.52899     | -112.470
+ 100,000,000   | -0.495683      | 0.51023        | 0.52380     | -155.543
+[*] Executing Sector 19: Green–Tao Prime Chain Fitness Audit up to N = 100,000,000...
+    [Mode] Deterministic sampled AP audit | max_step=500 | prime_stride=50
 
 ===============================================================================================
-                SECTOR 1 — MASTER INVARIANT CONVERGENCE PROFILE
+SECTOR 19 — GREEN–TAO PRIME CHAIN FITNESS AUDIT
 ===============================================================================================
- Horizon (N)  | Primes Mapped   | C_A(N) Invariant   | F_A(N) Regime
+ k | Bases Tested | Chains Found | Mean Chain ρ_GT | Mean Chain F_GT
 -----------------------------------------------------------------------------------------------
- 50,000,000   | 3,001,135       | -0.500560          | 0.51519
- 100,000,000  | 5,761,456       | -0.495683          | 0.51023
- 200,000,000  | 11,078,938      | -0.490928          | 0.50552
- 500,000,000  | 26,355,867      | -0.485133          | 0.49973
+ 3 | 115,230      | 246,297      | 0.691269        | 0.460893       
+ 4 | 115,230      | 29,856       | 0.690184        | 0.461335       
+ 5 | 115,230      | 2,300        | 0.688335        | 0.461872       
 ===============================================================================================
 
+[*] Processing Sector 3: Edge Sensitivity Variations (At N = 100,000,000)...
+[*] Processing Sector 4: Mod Sieve Model Adaptations (At N = 100,000,000)...
+
 ===============================================================================================
-                SECTOR 2 — LOG-NORMALIZED DRIFT VELOCITY & MOMENTUM
+                 APPENDIX: GCA §8 FORMAL REPRODUCIBILITY MANIFEST
 ===============================================================================================
- Horizon Transition Step          | v_log C_A(N)         | v_log F_A(N)
+ [8.1] BASE TRACK SPECIFICATION : ℝ (Real-valued field space; range boundary [-1, 0])
+ [8.2] SEED CONSTANT SET (C_n)  : Digamma-Class (𝔇_n) Arithmetic Field, sequence-dependent N
+ [8.3] AGGREGATOR FUNCTION (𝒜) : Pearson Covariance Functional over Prime Corridor population
+ [8.4] UNARY OPERATOR SET (𝒪)  : Identity (Functional maps as aggregator primitive)
+ [8.5] NUMERICAL SCHEMA METHOD  : Flat-Profile Zero-Allocation Streaming Matrix Filter
+                                 Null Model Variant: Mod-30 Pseudo-Stochastic Wheel Shuffle
+                                 Deterministic PRNG Seed Lock: 42
+ [8.6] MAXIMUM EXPERIMENTAL N   : 100,000,000
 -----------------------------------------------------------------------------------------------
- 50,000,000 -> 100,000,000 |          +0.007036 |           -0.00717
- 100,000,000 -> 200,000,000 |          +0.006860 |           -0.00679
- 200,000,000 -> 500,000,000 |          +0.006324 |           -0.00632
-===============================================================================================
-
-===============================================================================================
-                SECTOR 3 — BOUNDARY STABILITY PROFILE (EDGE PARAMETRICS)
-===============================================================================================
- Boundary Edge Cut Width   | Edge Track Correlation    | Edge Mean Fragmentation
+ [8.7] FORMAL GCA CLASSIFICATION VERDICT
 -----------------------------------------------------------------------------------------------
- Width Window = 1            | 0.000309                  | 0.50006
- Width Window = 2            | -0.002712                 | 0.63136
- Width Window = 3            | 0.013940                  | 0.42142
- Width Window = 5            | -0.001878                 | 0.38097
- Width Window = 10           | -0.010565                 | 0.44954
-===============================================================================================
-
-===============================================================================================
-                SECTOR 4 — WHEEL INTERFERENCE OVERLAY SPECTRUM
-===============================================================================================
- Wheel Frame Basis Modulo  | Interference BaseCorr     | Interference FragMean
+  - Empirical Limit Candidate 𝔊_C        : -0.495683
+  - Empirical Limit Candidate 𝔊_F        : 0.510227
+  - Terminal Log-Scale Velocity (v_C)    : 0.016200
+  - Velocity Deceleration Profile (R_v)  : FLUCTUATING / ASYMPTOTICALLY BOUNDED LOG-VELOCITY
+  - Permutation Null Escape Z-Score      : -155.543
+  - GCA §6 Status                        : EMPIRICAL LIMIT CANDIDATE — FORMAL PROOF PENDING
 -----------------------------------------------------------------------------------------------
- Mod-6                    | -0.485139                 | 0.49973
- Mod-30                   | -0.485133                 | 0.49973
- Mod-210                  | -0.485133                 | 0.49973
-===============================================================================================
-
-===============================================================================================
-                SECTOR 5 — RESIDUAL NULL REGIME DEVIATION
-===============================================================================================
-  [✓] Real Observed Sequence Mean F_A(N)               : 0.49973
-  [✓] Null Variant A: Flat Random Corridor Shuffle     : 0.38629
-  [✓] Null Variant C: Mod-30 Arithmetic Wheel Shuffle   : 0.53095
-  [->] Structural Residual Divergence Delta Gap         : -0.03122
-===============================================================================================
-
-===============================================================================================
-                SECTORS 6 & 7 — THE THREE-PATH CLASSIFICATION ENGINE
-===============================================================================================
-  [CLASSIFICATION MODEL RUN] : >> MODEL 1 — ASYMPTOTIC CONSTANT LIMIT CONVERGENCE <<
-  [C_A(N) CURRENT HORIZON]   : -0.485133
-  [F_A(N) CURRENT HORIZON]   : 0.49973
-  [ANALYSIS RATIONALE]       : Monotonic track verified. Log-normalized drift velocity is DECELERATING (M-Ratio R_v: 0.922).
+ [8.8] SECTOR 19 — GREEN-TAO SAMPLE ALIGNMENT MATRICES
 -----------------------------------------------------------------------------------------------
-  MANUSCRIPT ABSTRACT REALIGNMENT BLOCK:
-  "We present multi-scale empirical verification profiling the correlation tracking limits
-  between consecutive prime gaps and the internal subsets generated by divisor mapping functions.
-  The suite evaluated empirical trajectories against three distinct operational possibilities.
-  The data shows a clear monotonic scaling sequence that is tested for convergence toward an asymptotic constant.
-  Currently, the Acheron Correlation Invariant C_A(N) tracks toward -0.4851, while the
-  Acheron Fragmentation Regime F_A(N) tracks smoothly down to 0.4997. This structural trajectory
-  is verified cleanly against automated mod-30 wheel constraints, validating that the underlying drift profile
-  is not a localized numerical weakness, but rather an intrinsic property of the measured scaling phenomenon."
-===============================================================================================
-
-===========================================================================
-         ACHERON CORRELATION SCALING INVARIANT SUITE (v1.2-PROD)
-===========================================================================
-  1) Run Quick Scale Loop             (Up to N = 2,000,000)
-  2) Run Mid-Scale Verification Check  (Up to N = 10,000,000)
-  3) Run Long Horizon Deep Check         (Up to N = 50,000,000)
-  4) Run Production Validation Run       (Up to N = 100,000,000)
-  5) Run Master Scale Horizon Target     (Up to N = 500,000,000)
-  6) Run Ultimate 1B Convergence Check   (Up to N = 1,000,000,000)
-  7) Exit Suite Shell Environment
----------------------------------------------------------------------------
-Select classification operation index (1-7): 6
-
-[!] Extreme Horizon targeted. Compiling multi-pass arrays across 1 Billion bounds.
-[*] Initializing Scaling Invariant Suite v1.2-PROD | Target Horizon: 1,000,000,000
-[*] Generating global prime boundary layouts...
-[+] Bound mapped: 50,847,534 primes collected.
-[*] Compiling Underlying Base A(n) Arithmetic Topology...
-    [Field Builder Progress] Mapped up to N = 0 | Remaining: 1,000,000,000
-    [Field Builder Progress] Mapped up to N = 50,000,000 | Remaining: 950,000,000
-    [Field Builder Progress] Mapped up to N = 100,000,000 | Remaining: 900,000,000
-    [Field Builder Progress] Mapped up to N = 150,000,000 | Remaining: 850,000,000
-    [Field Builder Progress] Mapped up to N = 200,000,000 | Remaining: 800,000,000
-    [Field Builder Progress] Mapped up to N = 250,000,000 | Remaining: 750,000,000
-    [Field Builder Progress] Mapped up to N = 300,000,000 | Remaining: 700,000,000
-    [Field Builder Progress] Mapped up to N = 350,000,000 | Remaining: 650,000,000
-    [Field Builder Progress] Mapped up to N = 400,000,000 | Remaining: 600,000,000
-    [Field Builder Progress] Mapped up to N = 450,000,000 | Remaining: 550,000,000
-    [Field Builder Progress] Mapped up to N = 500,000,000 | Remaining: 500,000,000
-    [Field Builder Progress] Mapped up to N = 550,000,000 | Remaining: 450,000,000
-    [Field Builder Progress] Mapped up to N = 600,000,000 | Remaining: 400,000,000
-    [Field Builder Progress] Mapped up to N = 650,000,000 | Remaining: 350,000,000
-    [Field Builder Progress] Mapped up to N = 700,000,000 | Remaining: 300,000,000
-    [Field Builder Progress] Mapped up to N = 750,000,000 | Remaining: 250,000,000
-    [Field Builder Progress] Mapped up to N = 800,000,000 | Remaining: 200,000,000
-    [Field Builder Progress] Mapped up to N = 850,000,000 | Remaining: 150,000,000
-    [Field Builder Progress] Mapped up to N = 900,000,000 | Remaining: 100,000,000
-    [Field Builder Progress] Mapped up to N = 950,000,000 | Remaining: 50,000,000
-[+] Arithmetic Field mapping finalized.
-[*] Running streaming scale horizon loops and computing variations...
-    -> [Streaming Engine] Active past N = 10,000,019 | Remaining numbers to analyze: 989,999,981
-    -> [Streaming Engine] Active past N = 20,000,003 | Remaining numbers to analyze: 979,999,997
-    -> [Streaming Engine] Active past N = 30,000,001 | Remaining numbers to analyze: 969,999,999
-    -> [Streaming Engine] Active past N = 40,000,003 | Remaining numbers to analyze: 959,999,997
-    -> [Streaming Engine] Active past N = 50,000,017 | Remaining numbers to analyze: 949,999,983
-    -> [Streaming Engine] Active past N = 60,000,011 | Remaining numbers to analyze: 939,999,989
-    -> [Streaming Engine] Active past N = 70,000,027 | Remaining numbers to analyze: 929,999,973
-    -> [Streaming Engine] Active past N = 80,000,023 | Remaining numbers to analyze: 919,999,977
-    -> [Streaming Engine] Active past N = 90,000,049 | Remaining numbers to analyze: 909,999,951
-    -> [Streaming Engine] Active past N = 100,000,007 | Remaining numbers to analyze: 899,999,993
-    -> [Streaming Engine] Active past N = 110,000,017 | Remaining numbers to analyze: 889,999,983
-    -> [Streaming Engine] Active past N = 120,000,007 | Remaining numbers to analyze: 879,999,993
-    -> [Streaming Engine] Active past N = 130,000,001 | Remaining numbers to analyze: 869,999,999
-    -> [Streaming Engine] Active past N = 140,000,041 | Remaining numbers to analyze: 859,999,959
-    -> [Streaming Engine] Active past N = 150,000,001 | Remaining numbers to analyze: 849,999,999
-    -> [Streaming Engine] Active past N = 160,000,003 | Remaining numbers to analyze: 839,999,997
-    -> [Streaming Engine] Active past N = 170,000,009 | Remaining numbers to analyze: 829,999,991
-    -> [Streaming Engine] Active past N = 180,000,017 | Remaining numbers to analyze: 819,999,983
-    -> [Streaming Engine] Active past N = 190,000,003 | Remaining numbers to analyze: 809,999,997
-    -> [Streaming Engine] Active past N = 200,000,033 | Remaining numbers to analyze: 799,999,967
-    -> [Streaming Engine] Active past N = 210,000,017 | Remaining numbers to analyze: 789,999,983
-    -> [Streaming Engine] Active past N = 220,000,013 | Remaining numbers to analyze: 779,999,987
-    -> [Streaming Engine] Active past N = 230,000,003 | Remaining numbers to analyze: 769,999,997
-    -> [Streaming Engine] Active past N = 240,000,011 | Remaining numbers to analyze: 759,999,989
-    -> [Streaming Engine] Active past N = 250,000,013 | Remaining numbers to analyze: 749,999,987
-    -> [Streaming Engine] Active past N = 260,000,011 | Remaining numbers to analyze: 739,999,989
-    -> [Streaming Engine] Active past N = 270,000,023 | Remaining numbers to analyze: 729,999,977
-    -> [Streaming Engine] Active past N = 280,000,027 | Remaining numbers to analyze: 719,999,973
-    -> [Streaming Engine] Active past N = 290,000,017 | Remaining numbers to analyze: 709,999,983
-    -> [Streaming Engine] Active past N = 300,000,007 | Remaining numbers to analyze: 699,999,993
-    -> [Streaming Engine] Active past N = 310,000,037 | Remaining numbers to analyze: 689,999,963
-    -> [Streaming Engine] Active past N = 320,000,077 | Remaining numbers to analyze: 679,999,923
-    -> [Streaming Engine] Active past N = 330,000,001 | Remaining numbers to analyze: 669,999,999
-    -> [Streaming Engine] Active past N = 340,000,019 | Remaining numbers to analyze: 659,999,981
-    -> [Streaming Engine] Active past N = 350,000,041 | Remaining numbers to analyze: 649,999,959
-    -> [Streaming Engine] Active past N = 360,000,019 | Remaining numbers to analyze: 639,999,981
-    -> [Streaming Engine] Active past N = 370,000,003 | Remaining numbers to analyze: 629,999,997
-    -> [Streaming Engine] Active past N = 380,000,009 | Remaining numbers to analyze: 619,999,991
-    -> [Streaming Engine] Active past N = 390,000,041 | Remaining numbers to analyze: 609,999,959
-    -> [Streaming Engine] Active past N = 400,000,009 | Remaining numbers to analyze: 599,999,991
-    -> [Streaming Engine] Active past N = 410,000,023 | Remaining numbers to analyze: 589,999,977
-    -> [Streaming Engine] Active past N = 420,000,029 | Remaining numbers to analyze: 579,999,971
-    -> [Streaming Engine] Active past N = 430,000,013 | Remaining numbers to analyze: 569,999,987
-    -> [Streaming Engine] Active past N = 440,000,003 | Remaining numbers to analyze: 559,999,997
-    -> [Streaming Engine] Active past N = 450,000,007 | Remaining numbers to analyze: 549,999,993
-    -> [Streaming Engine] Active past N = 460,000,003 | Remaining numbers to analyze: 539,999,997
-    -> [Streaming Engine] Active past N = 470,000,029 | Remaining numbers to analyze: 529,999,971
-    -> [Streaming Engine] Active past N = 480,000,019 | Remaining numbers to analyze: 519,999,981
-    -> [Streaming Engine] Active past N = 490,000,001 | Remaining numbers to analyze: 509,999,999
-    -> [Streaming Engine] Active past N = 500,000,003 | Remaining numbers to analyze: 499,999,997
-    -> [Streaming Engine] Active past N = 510,000,011 | Remaining numbers to analyze: 489,999,989
-    -> [Streaming Engine] Active past N = 520,000,009 | Remaining numbers to analyze: 479,999,991
-    -> [Streaming Engine] Active past N = 530,000,011 | Remaining numbers to analyze: 469,999,989
-    -> [Streaming Engine] Active past N = 540,000,023 | Remaining numbers to analyze: 459,999,977
-    -> [Streaming Engine] Active past N = 550,000,001 | Remaining numbers to analyze: 449,999,999
-    -> [Streaming Engine] Active past N = 560,000,011 | Remaining numbers to analyze: 439,999,989
-    -> [Streaming Engine] Active past N = 570,000,023 | Remaining numbers to analyze: 429,999,977
-    -> [Streaming Engine] Active past N = 580,000,073 | Remaining numbers to analyze: 419,999,927
-    -> [Streaming Engine] Active past N = 590,000,003 | Remaining numbers to analyze: 409,999,997
-    -> [Streaming Engine] Active past N = 600,000,001 | Remaining numbers to analyze: 399,999,999
-    -> [Streaming Engine] Active past N = 610,000,003 | Remaining numbers to analyze: 389,999,997
-    -> [Streaming Engine] Active past N = 620,000,011 | Remaining numbers to analyze: 379,999,989
-    -> [Streaming Engine] Active past N = 630,000,013 | Remaining numbers to analyze: 369,999,987
-    -> [Streaming Engine] Active past N = 640,000,019 | Remaining numbers to analyze: 359,999,981
-    -> [Streaming Engine] Active past N = 650,000,009 | Remaining numbers to analyze: 349,999,991
-    -> [Streaming Engine] Active past N = 660,000,007 | Remaining numbers to analyze: 339,999,993
-    -> [Streaming Engine] Active past N = 670,000,013 | Remaining numbers to analyze: 329,999,987
-    -> [Streaming Engine] Active past N = 680,000,003 | Remaining numbers to analyze: 319,999,997
-    -> [Streaming Engine] Active past N = 690,000,011 | Remaining numbers to analyze: 309,999,989
-    -> [Streaming Engine] Active past N = 700,000,001 | Remaining numbers to analyze: 299,999,999
-    -> [Streaming Engine] Active past N = 710,000,021 | Remaining numbers to analyze: 289,999,979
-    -> [Streaming Engine] Active past N = 720,000,049 | Remaining numbers to analyze: 279,999,951
-    -> [Streaming Engine] Active past N = 730,000,003 | Remaining numbers to analyze: 269,999,997
-    -> [Streaming Engine] Active past N = 740,000,117 | Remaining numbers to analyze: 259,999,883
-    -> [Streaming Engine] Active past N = 750,000,007 | Remaining numbers to analyze: 249,999,993
-    -> [Streaming Engine] Active past N = 760,000,001 | Remaining numbers to analyze: 239,999,999
-    -> [Streaming Engine] Active past N = 770,000,009 | Remaining numbers to analyze: 229,999,991
-    -> [Streaming Engine] Active past N = 780,000,017 | Remaining numbers to analyze: 219,999,983
-    -> [Streaming Engine] Active past N = 790,000,019 | Remaining numbers to analyze: 209,999,981
-    -> [Streaming Engine] Active past N = 800,000,011 | Remaining numbers to analyze: 199,999,989
-    -> [Streaming Engine] Active past N = 810,000,011 | Remaining numbers to analyze: 189,999,989
-    -> [Streaming Engine] Active past N = 820,000,007 | Remaining numbers to analyze: 179,999,993
-    -> [Streaming Engine] Active past N = 830,000,063 | Remaining numbers to analyze: 169,999,937
-    -> [Streaming Engine] Active past N = 840,000,017 | Remaining numbers to analyze: 159,999,983
-    -> [Streaming Engine] Active past N = 850,000,013 | Remaining numbers to analyze: 149,999,987
-    -> [Streaming Engine] Active past N = 860,000,023 | Remaining numbers to analyze: 139,999,977
-    -> [Streaming Engine] Active past N = 870,000,049 | Remaining numbers to analyze: 129,999,951
-    -> [Streaming Engine] Active past N = 880,000,001 | Remaining numbers to analyze: 119,999,999
-    -> [Streaming Engine] Active past N = 890,000,003 | Remaining numbers to analyze: 109,999,997
-    -> [Streaming Engine] Active past N = 900,000,011 | Remaining numbers to analyze: 99,999,989
-    -> [Streaming Engine] Active past N = 910,000,031 | Remaining numbers to analyze: 89,999,969
-    -> [Streaming Engine] Active past N = 920,000,021 | Remaining numbers to analyze: 79,999,979
-    -> [Streaming Engine] Active past N = 930,000,017 | Remaining numbers to analyze: 69,999,983
-    -> [Streaming Engine] Active past N = 940,000,003 | Remaining numbers to analyze: 59,999,997
-    -> [Streaming Engine] Active past N = 950,000,017 | Remaining numbers to analyze: 49,999,983
-    -> [Streaming Engine] Active past N = 960,000,011 | Remaining numbers to analyze: 39,999,989
-    -> [Streaming Engine] Active past N = 970,000,007 | Remaining numbers to analyze: 29,999,993
-    -> [Streaming Engine] Active past N = 980,000,023 | Remaining numbers to analyze: 19,999,977
-    -> [Streaming Engine] Active past N = 990,000,023 | Remaining numbers to analyze: 9,999,977
-
-===============================================================================================
-                SECTOR 1 — MASTER INVARIANT CONVERGENCE PROFILE
-===============================================================================================
- Horizon (N)  | Primes Mapped   | C_A(N) Invariant   | F_A(N) Regime   
+  - Progression length k = 3  | Bases Audited: 115,230  | Chains Found: 246,297  | Mean ρ_GT: 0.691269 | Mean F_GT: 0.460893
+  - Progression length k = 4  | Bases Audited: 115,230  | Chains Found: 29,856   | Mean ρ_GT: 0.690184 | Mean F_GT: 0.461335
+  - Progression length k = 5  | Bases Audited: 115,230  | Chains Found: 2,300    | Mean ρ_GT: 0.688335 | Mean F_GT: 0.461872
 -----------------------------------------------------------------------------------------------
- 50,000,000   | 3,001,135       | -0.500560          | 0.51519         
- 100,000,000  | 5,761,456       | -0.495683          | 0.51023         
- 200,000,000  | 11,078,938      | -0.490928          | 0.50552         
- 500,000,000  | 26,355,868      | -0.485133          | 0.49973         
- 1,000,000,000 | 50,847,534      | -0.480962          | 0.49564        
-===============================================================================================
-
-===============================================================================================
-                SECTOR 2 — LOG-NORMALIZED DRIFT VELOCITY & MOMENTUM
-===============================================================================================
- Horizon Transition Step          | v_log C_A(N)         | v_log F_A(N)
+ [8.9] CAUSATIVE ATTRIBUTION VERIFICATION
 -----------------------------------------------------------------------------------------------
- 50,000,000 -> 100,000,000 |          +0.007036 |           -0.00717
- 100,000,000 -> 200,000,000 |          +0.006860 |           -0.00679
- 200,000,000 -> 500,000,000 |          +0.006324 |           -0.00632
- 500,000,000 -> 1,000,000,000 |          +0.006018 |           -0.00590
-===============================================================================================
-
-===============================================================================================
-                SECTOR 3 — BOUNDARY STABILITY PROFILE (EDGE PARAMETRICS)
-===============================================================================================
- Boundary Edge Cut Width   | Edge Track Correlation    | Edge Mean Fragmentation
+  - Observed Real Fragmentation (F_A)   : 0.51023
+  - Mod-30 Sieve Wheel Null Baseline    : 0.52380
+  - Residual Spatial Gap (Δ Matrix)    : -0.01358
+  - Structural Conflation Resolution   : PARTIAL WHEEL RESIDUAL — GRADIENT PRESENT
 -----------------------------------------------------------------------------------------------
- Width Window = 1            | 0.000280                  | 0.50004     
- Width Window = 2            | -0.002692                 | 0.62926     
- Width Window = 3            | 0.013231                  | 0.41965     
- Width Window = 5            | -0.002205                 | 0.37874     
- Width Window = 10           | -0.010639                 | 0.44680     
-===============================================================================================
-
-===============================================================================================
-                SECTOR 4 — WHEEL INTERFERENCE OVERLAY SPECTRUM
-===============================================================================================
- Wheel Frame Basis Modulo  | Interference BaseCorr     | Interference FragMean
+ [8.10] PARAMETRIC SENSITIVITY ROBUSTNESS MATRICES
 -----------------------------------------------------------------------------------------------
- Mod-6                    | -0.480966                 | 0.49564        
- Mod-30                   | -0.480962                 | 0.49564        
- Mod-210                  | -0.480962                 | 0.49564        
-===============================================================================================
+  [Track A] Edge-Width Spatial Robustness (WIDE VARIATION - BOUNDARY SENSITIVE):
+    * Maximum Guard Track Delta Span    : 0.466006
+    * Guard Width = 1  | BaseCorr: -0.000633 | FragMean: 0.53834
+    * Guard Width = 2  | BaseCorr: -0.179742 | FragMean: 0.64974
+    * Guard Width = 3  | BaseCorr: -0.138445 | FragMean: 0.48066
+    * Guard Width = 5  | BaseCorr: -0.234508 | FragMean: 0.46416
+    * Guard Width = 10 | BaseCorr: -0.466639 | FragMean: 0.50922
 
+  [Track B] Sieve Dimensioning Array:
+    * Modulus Wheel-6   | Real F_A: 0.51023 | Null F_A: 0.53841 | Deficit: -0.02818
+    * Modulus Wheel-30  | Real F_A: 0.51023 | Null F_A: 0.52387 | Deficit: -0.01364
+    * Modulus Wheel-210 | Real F_A: 0.51023 | Null F_A: 0.51758 | Deficit: -0.00735
 ===============================================================================================
-                SECTOR 5 — RESIDUAL NULL REGIME DEVIATION
-===============================================================================================
-  [✓] Real Observed Sequence Mean F_A(N)               : 0.49564
-  [✓] Null Variant A: Flat Random Corridor Shuffle     : 0.38278
-  [✓] Null Variant C: Mod-30 Arithmetic Wheel Shuffle   : 0.52940
-  [->] Structural Residual Divergence Delta Gap         : -0.03377
-===============================================================================================
-
-===============================================================================================
-                SECTORS 6 & 7 — THE THREE-PATH CLASSIFICATION ENGINE
-===============================================================================================
-  [CLASSIFICATION MODEL RUN] : >> MODEL 1 — ASYMPTOTIC CONSTANT LIMIT CONVERGENCE <<
-  [C_A(N) CURRENT HORIZON]   : -0.480962
-  [F_A(N) CURRENT HORIZON]   : 0.49564
-  [ANALYSIS RATIONALE]       : Monotonic track verified. Log-normalized drift velocity is DECELERATING (M-Ratio R_v: 0.952).
------------------------------------------------------------------------------------------------
-  MANUSCRIPT ABSTRACT REALIGNMENT BLOCK:
-  "We present multi-scale empirical verification profiling the correlation tracking limits
-  between consecutive prime gaps and the internal subsets generated by divisor mapping functions.
-  The suite evaluated empirical trajectories against three distinct operational possibilities.
-  The data shows a clear monotonic scaling sequence that is tested for convergence toward an asymptotic constant.
-  Currently, the Acheron Correlation Invariant C_A(N) tracks toward -0.4810, while the
-  Acheron Fragmentation Regime F_A(N) tracks smoothly down to 0.4956. This structural trajectory
-  is verified cleanly against automated mod-30 wheel constraints, validating that the underlying drift profile
-  is not a localized numerical weakness, but rather an intrinsic property of the measured scaling phenomenon."
-===============================================================================================
-
-===========================================================================
-         ACHERON CORRELATION SCALING INVARIANT SUITE (v1.2-PROD)
-===========================================================================
-  1) Run Quick Scale Loop             (Up to N = 2,000,000)
-  2) Run Mid-Scale Verification Check  (Up to N = 10,000,000)
-  3) Run Long Horizon Deep Check         (Up to N = 50,000,000)
-  4) Run Production Validation Run       (Up to N = 100,000,000)
-  5) Run Master Scale Horizon Target     (Up to N = 500,000,000)
-  6) Run Ultimate 1B Convergence Check   (Up to N = 1,000,000,000)
-  7) Exit Suite Shell Environment
----------------------------------------------------------------------------
-Select classification operation index (1-7):
